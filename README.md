@@ -45,3 +45,17 @@ Ten additional books: Kafka (Metamorphosis; The Trial), Machiavelli (The Prince;
 Challenging passages require explicit opt-in for suggestions and are excluded at intensity4–5; gentler passages are also limited by their curated maximum intensity. A direct link to a challenging passage shows a separate consent screen unless the reader opted in. Quote text, Hinglish paraphrase, editorial rationale, and reflection prompt are clearly separated. Sources can be opened at an exact highlighted excerpt. Skipped suggestions stay only in page memory; users explicitly save reflections as local anchors.
 
 Validation: quote/source identity for all39 entries, complete13-source and16-mood coverage, all UTF-16 offsets, explicit-needs matching, mixed-mood ranking, writer filters, excluded passages, and challenging-content/intensity boundaries.
+
+## Personal flow, downtime history, and enjoyment
+
+The default flow uses feeling words, an optional nuance and an optional self-selected need, followed by a tentative Hinglish reflection and source-linked readings. More detail remains optional. Feeling descriptions do not determine a diagnosis or the cause of a feeling.
+
+Downtime check-ins explicitly save low-mood, overwhelmed, or stuck moments. Optional fields include event time, estimated duration, situation, personal note, and an activity/helpfulness rating. Rest is an activity that may have been tried, not a downtime category in the logging UI. Entries persist in `antar-checkins-v1` browser storage, without app encryption, AI transmission, or account/device synchronization. Edit, reversible single removal, delete-all confirmation, and JSON export are available. Corrupt/unreadable history blocks overwriting until explicitly cleared; raw export can preserve it. Clearing the current unsaved session does not delete saved history.
+
+Month observations use only recorded entries. Missing days are never treated as good or bad. Context recurrence requires three separate logged days. Helpfulness summaries require three rated entries on three days and exclude unsure ratings. Time-of-day observations require seven logged days spanning at least fourteen days. A repeated within-calendar-month cluster requires at least three observed months: each has six logged days, logs in each calendar third, at least three difficult-moment days in the leading third, and at least two more than the next third. It is described as a logging cluster, without inference about unobserved days, cause, biological cycles, or future mood.
+
+When enabled, explicit passage helpfulness ratings adjust eligible passage rankings by at most two relevance points. They never bypass mood, requested-need, author, intensity, or challenging-content eligibility. This is transparent deterministic personalization, not an AI model trained on the user. It can be switched off, and deleting history removes its source data.
+
+Three original interactive stories offer eleven reachable endings. They are clearly labelled modern fiction, with no score, streak, personality result, or forced reflection. Enjoying a story never automatically creates a check-in.
+
+Run `node test-matching.cjs` and `node test-month.cjs` from the repository root. Validation covers exact source excerpts, matching boundaries, missing-day semantics, duration accounting, recurrence thresholds, learning eligibility, and every story branch. Browser QA additionally verifies the guided flow, save/reload, entry removal/undo, and story navigation. Actual iPhone/Safari testing remains outstanding.

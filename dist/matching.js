@@ -14,7 +14,8 @@ const AntarMatching = (() => {
    if(moods.length&&!matchedMoods.length)return [];
    if(need!=='any'&&!entry.needs.includes(need))return [];
    const nuanceMatched=!!options.nuance&&(entry.nuances||[]).includes(options.nuance);
-   return [{entry,matchedMoods,matchedNeed:need==='any'?null:need,nuanceMatched,score:matchedMoods.length*4+(need==='any'?0:4)+(nuanceMatched?3:0),index}];
+   const past=options.feedback?.[entry.id]||{};const feedbackHelped=Number(past.helped)||0,feedbackNotHelped=Number(past.notHelped)||0;const feedbackBoost=Math.max(-2,Math.min(2,feedbackHelped-feedbackNotHelped));
+   return [{feedbackHelped,feedbackNotHelped,entry,matchedMoods,matchedNeed:need==='any'?null:need,nuanceMatched,score:matchedMoods.length*4+(need==='any'?0:4)+(nuanceMatched?3:0)+feedbackBoost,index}];
   }).sort((a,b)=>b.score-a.score||a.index-b.index);
  }
  return {rank};
