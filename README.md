@@ -37,3 +37,11 @@ JavaScript syntax check, local HTTP delivery, PDF signature/page-count/SHA-256 v
 ## Library expansion
 
 Ten additional books: Kafka (Metamorphosis; The Trial), Machiavelli (The Prince; Discourses on Livy), Marcus Aurelius (Meditations), Epictetus (selected Discourses and Encheiridion), Seneca (Minor Dialogues), Plato (Apology), Laozi (Tao Teh King), and Nietzsche (Thus Spake Zarathustra). Additions are downloaded EPUB and original source files, not PDFs. Chapter/section readers are extracted from the full downloaded editions. Kafka/Wyllie translations are copyrighted and redistributed under Project Gutenberg permission and full retained license. Other named historical translations are public domain, with publisher production terms recorded in the manifest. Books are deliberately browsed; no new automatic mood-treatment recommendations were added.
+
+## Mood-linked passages
+
+39 exact excerpts (three per source edition) are indexed in `dist/library/excerpts.json`, with named sources, section indexes, and UTF-16 offsets verified against downloaded chapter text. All16 everyday mood categories have gentler source-linked options. Four requested reading needs (comfort, perspective, self-understanding, action), mixed selected feelings, optional exact nuance, writer preference, intensity, and content opt-in guide deterministic editorial ranking. The algorithm does not interpret free text, diagnose conditions, calculate clinical confidence, or guarantee a useful reading. No unrelated fallback is substituted when filters yield no close match. Some mood/need combinations deliberately have no match.
+
+Challenging passages require explicit opt-in for suggestions and are excluded at intensity4–5; gentler passages are also limited by their curated maximum intensity. A direct link to a challenging passage shows a separate consent screen unless the reader opted in. Quote text, Hinglish paraphrase, editorial rationale, and reflection prompt are clearly separated. Sources can be opened at an exact highlighted excerpt. Skipped suggestions stay only in page memory; users explicitly save reflections as local anchors.
+
+Validation: quote/source identity for all39 entries, complete13-source and16-mood coverage, all UTF-16 offsets, explicit-needs matching, mixed-mood ranking, writer filters, excluded passages, and challenging-content/intensity boundaries.

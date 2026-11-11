@@ -1,0 +1,500 @@
+[
+  {
+    "id": "oedipus-excerpt-1",
+    "sourceId": "oedipus",
+    "sectionIndex": 11,
+    "quote": "How to speak, I know not; I am fluttered with forebodings; neither in the present have I clear vision, nor of the future.",
+    "heading": "When the picture is unclear",
+    "moods": [
+      "anxious",
+      "uncertain",
+      "unsure",
+      "looping"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Jab tasveer saaf nahi hoti, toh shabd aur yaqeen dono milna mushkil ho sakta hai.",
+    "why": "The chorus voices uncertainty in a tragedy. This can offer recognition of not knowing; it is not a prediction about your life.",
+    "prompt": "What is genuinely unknown, and what would help you hold that uncertainty?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress."
+  },
+  {
+    "id": "oedipus-excerpt-2",
+    "sourceId": "oedipus",
+    "sectionIndex": 12,
+    "quote": "Mark me now,—in answer to thy words, hear a fair reply, and then judge for thyself on knowledge. Oe. Thou art apt in speech, but I have a poor wit for thy lessons, since I have found thee my malignant foe. Cr. Now first hear how I will explain this very thing— Oe. Explain me not one thing—that thou art not false.",
+    "heading": "Before deciding, hear the reply",
+    "moods": [
+      "angry",
+      "hurt",
+      "guilty",
+      "anxious"
+    ],
+    "needs": [
+      "perspective",
+      "action"
+    ],
+    "nuances": [],
+    "hinglish": "Gusse mein doosre ki baat sunna mushkil ho sakta hai. Ruk kar sunna ek choice hai, majboori nahi.",
+    "why": "Creon asks for a fair hearing while Oedipus is already convinced. The contrast invites reflection on conclusions made during conflict.",
+    "prompt": "If it is safe, what question could you ask before deciding what someone meant?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress."
+  },
+  {
+    "id": "oedipus-excerpt-3",
+    "sourceId": "oedipus",
+    "sectionIndex": 14,
+    "quote": "But make me not guilty in a corner, on unproved surmise. It is not right to adjudge bad men good at random, or good men bad. I count it a like thing for610 a man to cast off a true friend as to cast away the life in his own bosom, which most he loves.",
+    "heading": "An accusation is not proof",
+    "moods": [
+      "ashamed",
+      "guilty",
+      "hurt",
+      "jealous"
+    ],
+    "needs": [
+      "perspective",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Kisi ka ilzaam, apne aap mein saboot nahi hota. Apne baare mein faisla karne se pehle facts dekh sakte ho.",
+    "why": "Creon challenges an unproved accusation. Explore the difference between a charge and evidence, without assuming that real harm did not occur.",
+    "prompt": "What evidence supports the judgment, and what remains an assumption?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress."
+  },
+  {
+    "id": "gita-excerpt-1",
+    "sourceId": "gita",
+    "sectionIndex": 0,
+    "quote": "How is one to acquire knowledge? How is one to attain liberation? And how is one to reach dispassion? Tell me this, sir. 1.1",
+    "heading": "You can begin with a question",
+    "moods": [
+      "uncertain",
+      "unsure",
+      "okay"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Khud ko samajhne ki shuruaat jawab se nahi, ek imaandaar sawal se bhi ho sakti hai.",
+    "why": "Janaka opens a spiritual dialogue by asking questions. You can borrow the openness without adopting its spiritual aims.",
+    "prompt": "What question do you actually want to explore today?",
+    "intensityMax": 3,
+    "sensitive": false,
+    "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language."
+  },
+  {
+    "id": "gita-excerpt-2",
+    "sourceId": "gita",
+    "sectionIndex": 6,
+    "quote": "In the infinite ocean of myself the world boat drifts here and there, moved by its own inner wind. I am not put out by that. 7.1 Whether the world wave of its own nature rises or disappears in the infinite ocean of myself, I neither gain nor lose anything by that. 7.2",
+    "heading": "A wave is an image to explore",
+    "moods": [
+      "overwhelmed",
+      "anxious",
+      "looping",
+      "restless"
+    ],
+    "needs": [
+      "perspective",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Khayalon ko lehar ki tarah dekhna ek optional tasveer hai. Mushkil feelings ko jhootha kehna zaroori nahi.",
+    "why": "Janaka uses an ocean metaphor for a nondual spiritual view. As a metaphor, it may invite space around thoughts; it is not a medical fact or promise of calm.",
+    "prompt": "Does this image create a little space, or would ordinary grounding fit better?",
+    "intensityMax": 3,
+    "sensitive": false,
+    "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language."
+  },
+  {
+    "id": "gita-excerpt-3",
+    "sourceId": "gita",
+    "sectionIndex": 11,
+    "quote": "Owing to the distraction of such things as wrong identification, one is driven to strive for mental stillness. Recognising this pattern I am now established. 12.3 By relinquishing the sense of rejection and acceptance, and with pleasure and disappointment ceasing today, brahmin — I am now established. 12.4",
+    "heading": "When stillness becomes another task",
+    "moods": [
+      "looping",
+      "overwhelmed",
+      "exhausted"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Kabhi sukoon paane ki koshish bhi ek aur pressure ban jaati hai. Is nazariye ko maanna zaroori nahi.",
+    "why": "Janaka describes striving and his claimed spiritual resolution. You might ask whether the demand to feel calm adds pressure; the verse does not require rejecting emotions.",
+    "prompt": "Could you let this moment be unfinished instead of making calm another task?",
+    "intensityMax": 3,
+    "sensitive": false,
+    "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language."
+  },
+  {
+    "id": "ashtavakra-epic-excerpt-1",
+    "sourceId": "ashtavakra-epic",
+    "sectionIndex": 1,
+    "quote": "We have come, O ruler of men, to witness thy sacrificial ceremony and our curiosity, O king, is very great. And we have come here as guests. We want the permission of thy order (to enter). And, O son of Indradyumna, we have come, desirous of seeing the sacrifice, and to meet king Janaka and speak to him. But thy warder obstructs us and for this our anger burneth us like fever.",
+    "heading": "Name what you came for",
+    "moods": [
+      "hurt",
+      "angry",
+      "lonely"
+    ],
+    "needs": [
+      "action",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Ashtavakra apni baat rakhte hain: hum kyun aaye aur humein kya rok raha hai. Aapki zaroorat bhi shabdon mein aa sakti hai.",
+    "why": "At the gate, Ashtavakra states his purpose and frustration. This can prompt clear self-expression without endorsing the epic's hierarchy or conflict.",
+    "prompt": "How could you name your need and the obstacle in one sentence?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita."
+  },
+  {
+    "id": "ashtavakra-epic-excerpt-2",
+    "sourceId": "ashtavakra-epic",
+    "sectionIndex": 1,
+    "quote": "True growth cannot be inferred from the mere development of the body, as the growth of the knots of the Salmali tree cannot signify its age. That tree is called full-grown which although slender and short, beareth fruits.",
+    "heading": "A first impression can miss a person",
+    "moods": [
+      "ashamed",
+      "hurt",
+      "uncertain",
+      "jealous"
+    ],
+    "needs": [
+      "perspective",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Sirf body, umar ya pehli nazar se kisi ko poora nahi samajh sakte. Aapki value ko prove karna zaroori nahi.",
+    "why": "Ashtavakra challenges judging knowledge by physical development. His fruit-bearing analogy is historical, not a rule that worth depends on productivity.",
+    "prompt": "Which first impression about you feels too narrow?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita."
+  },
+  {
+    "id": "ashtavakra-epic-excerpt-3",
+    "sourceId": "ashtavakra-epic",
+    "sectionIndex": 1,
+    "quote": "One is not old because his head is gray. But the gods regard him as old who, although a child in years, is yet possessed of knowledge. The sages have not laid down that a man's merit consists in years, or gray hair, or wealth, or friends.",
+    "heading": "Age and status are incomplete measures",
+    "moods": [
+      "ashamed",
+      "jealous",
+      "hurt",
+      "okay"
+    ],
+    "needs": [
+      "perspective",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Umar, paisa ya social circle kisi ki poori pehchaan nahi hai.",
+    "why": "Ashtavakra questions age and status as measures of merit. The ancient text's values can be examined rather than accepted wholesale.",
+    "prompt": "Which measure of yourself would you like to question?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita."
+  },
+  {
+    "id": "kafka-metamorphosis-excerpt-1",
+    "sourceId": "kafka-metamorphosis",
+    "sectionIndex": 0,
+    "quote": "At the same time, though, he did not forget to remind himself that calm consideration was much better than rushing to desperate conclusions. At times like this he would direct his eyes to the window and look out as clearly as he could,",
+    "heading": "Even in confusion, a pause",
+    "moods": [
+      "overwhelmed",
+      "anxious",
+      "looping",
+      "restless"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Gregor uljhan ke beech ruk kar sochne ki koshish karta hai. Yeh pehchaan ka pal hai, relief ka vaada nahi.",
+    "why": "A hesitation inside disturbing fiction may resonate with mental overload, without making Gregor's story a model for your own.",
+    "prompt": "Would a pause, a clearer view, or another person help before your next decision?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress."
+  },
+  {
+    "id": "kafka-metamorphosis-excerpt-2",
+    "sourceId": "kafka-metamorphosis",
+    "sectionIndex": 1,
+    "quote": "Unlike him, she was very fond of music and a gifted and expressive violinist, it was his secret plan to send her to the conservatory next year even though it would cause great expense that would have to be made up for in some other way. During Gregor’s short periods in town, conversation with his sister would often turn to the conservatory but it was only ever mentioned as a lovely dream that could never be realised.",
+    "heading": "Remembering what matters to someone",
+    "moods": [
+      "lonely",
+      "sad",
+      "hurt",
+      "okay"
+    ],
+    "needs": [
+      "understanding",
+      "comfort"
+    ],
+    "nuances": [],
+    "hinglish": "Connection kabhi kisi ki chhoti si khwahish ko yaad rakhne mein bhi hota hai.",
+    "why": "Gregor remembers his sister's musical hopes. This is a point of connection within a painful story, not a promise about how relationships resolve.",
+    "prompt": "Whose hopes do you remember, and who might remember yours?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress."
+  },
+  {
+    "id": "kafka-metamorphosis-excerpt-3",
+    "sourceId": "kafka-metamorphosis",
+    "sectionIndex": 2,
+    "quote": "Was he an animal if music could captivate him so? It seemed to him that he was being shown the way to the unknown nourishment he had been yearning for.",
+    "heading": "A moment that still reaches you",
+    "moods": [
+      "numb",
+      "sad",
+      "lonely",
+      "unsure"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Music ya koi aur cheez andar tak pahunch sakti hai. Kuch mehsoos karna force karna zaroori nahi.",
+    "why": "Music touches Gregor during alienation. This can invite curiosity about what reaches you, while leaving room for feeling nothing or declining the story.",
+    "prompt": "Is there an ordinary sound, place or activity you feel curious about, without needing it to change your mood?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress."
+  },
+  {
+    "id": "kafka-trial-excerpt-1",
+    "sourceId": "kafka-trial",
+    "sectionIndex": 1,
+    "quote": "it was a kind of pride that made K. want to go on foot, this was his affair and the idea of any help from strangers, however slight, was repulsive to him, he also wanted to avoid asking for anyone's help because that would initiate them into the affair even if only slightly.",
+    "heading": "When help feels exposing",
+    "moods": [
+      "lonely",
+      "ashamed",
+      "overwhelmed",
+      "anxious"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Madad maangna kabhi private baat kholne jaisa lagta hai. Aap decide kar sakte ho kitna share karna hai.",
+    "why": "K. resists involving strangers. This may resonate with the tension between privacy and support; his refusal is not advice to face difficulty alone.",
+    "prompt": "What is the smallest amount you would feel comfortable sharing with someone trustworthy?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation."
+  },
+  {
+    "id": "kafka-trial-excerpt-2",
+    "sourceId": "kafka-trial",
+    "sectionIndex": 7,
+    "quote": "I repeat that all this is just a ridiculous superstition, and in most cases it's completely disproved by the facts, but when you live in that society it's hard to hold yourself back from beliefs like that. Just think how much effect that superstition can have.",
+    "heading": "A convincing label can still be wrong",
+    "moods": [
+      "ashamed",
+      "anxious",
+      "looping",
+      "uncertain"
+    ],
+    "needs": [
+      "perspective",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Koi baat baar-baar sunne se sach nahi ho jaati. Label aur evidence ko alag dekh sakte ho.",
+    "why": "A character identifies a superstition as unreliable yet socially powerful. This invites a check on labels, not dismissal of genuine concerns.",
+    "prompt": "Which label are you treating as evidence, and what do the facts show?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation."
+  },
+  {
+    "id": "kafka-trial-excerpt-3",
+    "sourceId": "kafka-trial",
+    "sectionIndex": 8,
+    "quote": "Every hour that he could not be in the office was a cause of concern for him, he was no longer able to make use of his time in the office anything like as well as he had previously, he spent many hours merely pretending to do important work, but that only increased his anxiety about not being in the office.",
+    "heading": "Pressure crowds out the work",
+    "moods": [
+      "exhausted",
+      "anxious",
+      "overwhelmed"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Kaam ki chinta itni jagah le sakti hai ki kaam karna hi mushkil lage. Yeh ek fictional pehchaan hai, diagnosis nahi.",
+    "why": "K.'s work anxiety occupies the time he hoped to use. This can recognize pressure without treating the bleak setting as your future.",
+    "prompt": "Would lowering one demand or asking for clearer expectations make the next task smaller?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation."
+  },
+  {
+    "id": "machiavelli-the-prince-excerpt-1",
+    "sourceId": "machiavelli-the-prince",
+    "sectionIndex": 2,
+    "quote": "just as those who draw landscapes place themselves below in the plain to contemplate the nature of the mountains and of lofty places, and in order to contemplate the plains place themselves upon high mountains, even so to understand the nature of the people it needs to be a prince, and to understand that of princes it needs to be of the people.",
+    "heading": "A view depends on where you stand",
+    "moods": [
+      "uncertain",
+      "hurt",
+      "jealous",
+      "unsure"
+    ],
+    "needs": [
+      "perspective",
+      "understanding"
+    ],
+    "nuances": [],
+    "hinglish": "Nazariya badalne se wahi cheez alag dikh sakti hai. Doosre ka view samajhna, apni baat chhodna nahi.",
+    "why": "In a dedication about rulers and subjects, Machiavelli compares perspective to drawing landscapes. This limited analogy invites another viewpoint, not manipulation.",
+    "prompt": "What might someone in a different position see that you cannot see yet?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people."
+  },
+  {
+    "id": "machiavelli-the-prince-excerpt-2",
+    "sourceId": "machiavelli-the-prince",
+    "sectionIndex": 25,
+    "quote": "Therefore a wise prince ought to hold a third course by choosing the wise men in his state, and giving to them only the liberty of speaking the truth to him, and then only of those things of which he inquires, and of none others; but he ought to question them upon everything, and listen to their opinions, and afterwards form his own conclusions.",
+    "heading": "Ask, listen, make your judgment",
+    "moods": [
+      "uncertain",
+      "looping",
+      "unsure"
+    ],
+    "needs": [
+      "perspective",
+      "action"
+    ],
+    "nuances": [],
+    "hinglish": "Kisi bharosemand insaan se rai le sakte ho, phir apne facts aur needs ke saath faisla kar sakte ho.",
+    "why": "Machiavelli advises a ruler who tightly controls counsel. Only the question-and-listen theme is offered; this restrictive power structure is not recommended for relationships.",
+    "prompt": "Who could offer a useful perspective while respecting that the decision is yours?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people."
+  },
+  {
+    "id": "machiavelli-the-prince-excerpt-3",
+    "sourceId": "machiavelli-the-prince",
+    "sectionIndex": 27,
+    "quote": "Nevertheless, not to extinguish our free will, I hold it to be true that Fortune is the arbiter of one-half of our actions,46 but that she still leaves us to direct the other half, or perhaps a little less.",
+    "heading": "Some influence, not total control",
+    "moods": [
+      "anxious",
+      "overwhelmed",
+      "uncertain",
+      "guilty"
+    ],
+    "needs": [
+      "perspective",
+      "action"
+    ],
+    "nuances": [],
+    "hinglish": "Sab kuch aapke control mein nahi. Jo chhota hissa influence kar sakte ho, usse shuru karne par soch sakte ho.",
+    "why": "Machiavelli proposes a metaphorical division between fortune and agency. The fraction is his speculation, not a measured fact about control or responsibility.",
+    "prompt": "What is one influence you have, and one outcome you do not have to carry alone?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people."
+  },
+  {
+    "id": "machiavelli-discourses-on-livy-excerpt-1",
+    "sourceId": "machiavelli-discourses-on-livy",
+    "sectionIndex": 2,
+    "quote": "And although the task be arduous, still, with the help of those at whose instance I assumed the burden, I hope to carry it forward so far, that another shall have no long way to go to bring it to its destination.",
+    "heading": "You need not finish everything alone",
+    "moods": [
+      "overwhelmed",
+      "exhausted",
+      "uncertain"
+    ],
+    "needs": [
+      "perspective",
+      "action"
+    ],
+    "nuances": [],
+    "hinglish": "Mushkil kaam ko akela poora karna zaroori nahi. Kisi aur ke saath uska agla hissa kar sakte ho.",
+    "why": "In his preface, Machiavelli imagines others continuing an unfinished study. This image of shared work is not a demand to keep pushing through fatigue.",
+    "prompt": "What part could you share, postpone or leave for someone else?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people."
+  },
+  {
+    "id": "machiavelli-discourses-on-livy-excerpt-2",
+    "sourceId": "machiavelli-discourses-on-livy",
+    "sectionIndex": 41,
+    "quote": "Anyone comparing the present with the past will soon perceive that in all cities and in all nations there prevail the same desires and passions as always have prevailed;",
+    "heading": "Old words, familiar human concerns",
+    "moods": [
+      "lonely",
+      "unsure",
+      "ashamed",
+      "okay"
+    ],
+    "needs": [
+      "understanding",
+      "perspective"
+    ],
+    "nuances": [],
+    "hinglish": "Purani kitaabon mein bhi insaani khwahish aur uljhan milti hai. Phir bhi har insaan ka context alag hai.",
+    "why": "Machiavelli claims human passions recur across history. This may invite recognition, but his sweeping claim should not erase differences or predict events.",
+    "prompt": "Does a familiar pattern appear here, and what is different about your situation?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people."
+  },
+  {
+    "id": "machiavelli-discourses-on-livy-excerpt-3",
+    "sourceId": "machiavelli-discourses-on-livy",
+    "sectionIndex": 107,
+    "quote": "And hence it comes that a commonwealth endures longer, and has a more sustained good fortune than a princedom, because from the diversity in the characters of its citizens, it can adapt itself better than a prince can to the diversity of times.",
+    "heading": "More than one way to respond",
+    "moods": [
+      "uncertain",
+      "jealous",
+      "looping",
+      "restless"
+    ],
+    "needs": [
+      "perspective",
+      "action"
+    ],
+    "nuances": [],
+    "hinglish": "Har situation mein ek hi tareeka fit nahi hota. Alag nazariye milkar options badha sakte hain.",
+    "why": "Machiavelli attributes republics' adaptability to varied characters. As an analogy, this invites more than one response; it is not a rule for mental health.",
+    "prompt": "What is a second safe approach you could consider rather than repeating the first?",
+    "intensityMax": 3,
+    "sensitive": true,
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people."
+  }
+]

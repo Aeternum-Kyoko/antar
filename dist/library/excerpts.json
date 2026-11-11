@@ -1,0 +1,1222 @@
+{
+  "version": 1,
+  "purpose": "Editorial mood-linked literary reflection, not diagnosis or treatment.",
+  "matching": "Selected moods, requested reading need, optional exact nuance, writer preference, intensity and explicit challenging-content opt-in. Free text is not analyzed.",
+  "coverage": {
+    "entries": 39,
+    "sources": 13,
+    "sourceCoverage": {
+      "oedipus": 3,
+      "gita": 3,
+      "ashtavakra-epic": 3,
+      "kafka-metamorphosis": 3,
+      "kafka-trial": 3,
+      "machiavelli-the-prince": 3,
+      "machiavelli-discourses-on-livy": 3,
+      "aurelius-meditations": 3,
+      "epictetus-discourses": 3,
+      "seneca-dialogues": 3,
+      "plato-apology": 3,
+      "laozi-tao": 3,
+      "nietzsche-zarathustra": 3
+    },
+    "moodCoverage": {
+      "angry": 4,
+      "anxious": 11,
+      "ashamed": 11,
+      "exhausted": 8,
+      "guilty": 6,
+      "hurt": 11,
+      "jealous": 11,
+      "lonely": 9,
+      "looping": 10,
+      "numb": 3,
+      "okay": 9,
+      "overwhelmed": 13,
+      "restless": 8,
+      "sad": 4,
+      "uncertain": 20,
+      "unsure": 12
+    },
+    "gentleMoodCoverage": {
+      "angry": 2,
+      "anxious": 4,
+      "ashamed": 4,
+      "exhausted": 5,
+      "guilty": 3,
+      "hurt": 4,
+      "jealous": 4,
+      "lonely": 3,
+      "looping": 5,
+      "numb": 2,
+      "okay": 5,
+      "overwhelmed": 8,
+      "restless": 6,
+      "sad": 2,
+      "uncertain": 9,
+      "unsure": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "oedipus-excerpt-1",
+      "sourceId": "oedipus",
+      "sectionIndex": 11,
+      "quote": "How to speak, I know not; I\nam fluttered with forebodings; neither in the present have I clear vision, nor of the\nfuture.",
+      "heading": "When the picture is unclear",
+      "moods": [
+        "anxious",
+        "uncertain",
+        "unsure",
+        "looping"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Jab tasveer saaf nahi hoti, toh shabd aur yaqeen dono milna mushkil ho sakta hai.",
+      "why": "The chorus voices uncertainty in a tragedy. This can offer recognition of not knowing; it is not a prediction about your life.",
+      "prompt": "What is genuinely unknown, and what would help you hold that uncertainty?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress.",
+      "start": 899,
+      "end": 1020,
+      "locator": "Oedipus the King, PDF page 17 · PDF page 17",
+      "sourceUrl": "https://oll.libertyfund.org/titles/jebb-the-tragedies-of-sophocles",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "oedipus-excerpt-2",
+      "sourceId": "oedipus",
+      "sectionIndex": 12,
+      "quote": "Mark me now,—in answer to thy words, hear a fair reply, and then judge for\nthyself on knowledge.\nOe. Thou art apt in speech, but I have a poor wit for thy lessons, since I have found\nthee my malignant foe.\nCr. Now first hear how I will explain this very thing—\nOe. Explain me not one thing—that thou art not false.",
+      "heading": "Before deciding, hear the reply",
+      "moods": [
+        "angry",
+        "hurt",
+        "guilty",
+        "anxious"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Gusse mein doosre ki baat sunna mushkil ho sakta hai. Ruk kar sunna ek choice hai, majboori nahi.",
+      "why": "Creon asks for a fair hearing while Oedipus is already convinced. The contrast invites reflection on conclusions made during conflict.",
+      "prompt": "If it is safe, what question could you ask before deciding what someone meant?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress.",
+      "start": 782,
+      "end": 1096,
+      "locator": "Oedipus the King, PDF page 18 · PDF page 18",
+      "sourceUrl": "https://oll.libertyfund.org/titles/jebb-the-tragedies-of-sophocles",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "oedipus-excerpt-3",
+      "sourceId": "oedipus",
+      "sectionIndex": 14,
+      "quote": "But make me not guilty in a corner, on unproved surmise. It is not\nright to adjudge bad men good at random, or good men bad. I count it a like thing\nfor610 a man to cast off a true friend as to cast away the life in his own bosom, which\nmost he loves.",
+      "heading": "An accusation is not proof",
+      "moods": [
+        "ashamed",
+        "guilty",
+        "hurt",
+        "jealous"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Kisi ka ilzaam, apne aap mein saboot nahi hota. Apne baare mein faisla karne se pehle facts dekh sakte ho.",
+      "why": "Creon challenges an unproved accusation. Explore the difference between a charge and evidence, without assuming that real harm did not occur.",
+      "prompt": "What evidence supports the judgment, and what remains an assumption?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress.",
+      "start": 553,
+      "end": 804,
+      "locator": "Oedipus the King, PDF page 20 · PDF page 20",
+      "sourceUrl": "https://oll.libertyfund.org/titles/jebb-the-tragedies-of-sophocles",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gita-excerpt-1",
+      "sourceId": "gita",
+      "sectionIndex": 0,
+      "quote": "How is one to acquire knowledge? How is one to attain liberation? And how is\none to reach dispassion? Tell me this, sir. 1.1",
+      "heading": "You can begin with a question",
+      "moods": [
+        "uncertain",
+        "unsure",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Khud ko samajhne ki shuruaat jawab se nahi, ek imaandaar sawal se bhi ho sakti hai.",
+      "why": "Janaka opens a spiritual dialogue by asking questions. You can borrow the openness without adopting its spiritual aims.",
+      "prompt": "What question do you actually want to explore today?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language.",
+      "start": 42,
+      "end": 166,
+      "locator": "Self-realization · PDF page 6",
+      "sourceUrl": "https://en.wikisource.org/wiki/Ashtavakra_Gita",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gita-excerpt-2",
+      "sourceId": "gita",
+      "sectionIndex": 6,
+      "quote": "In the infinite ocean of myself the world boat drifts here and there, moved by its\nown inner wind. I am not put out by that. 7.1\n \nWhether the world wave of its own nature rises or disappears in the infinite\nocean of myself, I neither gain nor lose anything by that. 7.2",
+      "heading": "A wave is an image to explore",
+      "moods": [
+        "overwhelmed",
+        "anxious",
+        "looping",
+        "restless"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Khayalon ko lehar ki tarah dekhna ek optional tasveer hai. Mushkil feelings ko jhootha kehna zaroori nahi.",
+      "why": "Janaka uses an ocean metaphor for a nondual spiritual view. As a metaphor, it may invite space around thoughts; it is not a medical fact or promise of calm.",
+      "prompt": "Does this image create a little space, or would ordinary grounding fit better?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language.",
+      "start": 52,
+      "end": 322,
+      "locator": "Nature of Self-realization · PDF page 17",
+      "sourceUrl": "https://en.wikisource.org/wiki/Ashtavakra_Gita",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gita-excerpt-3",
+      "sourceId": "gita",
+      "sectionIndex": 11,
+      "quote": "Owing to the distraction of such things as wrong identification, one is driven to\nstrive for mental stillness. Recognising this pattern I am now established. 12.3\n \nBy relinquishing the sense of rejection and acceptance, and with pleasure and\ndisappointment ceasing today, brahmin — I am now established. 12.4",
+      "heading": "When stillness becomes another task",
+      "moods": [
+        "looping",
+        "overwhelmed",
+        "exhausted"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Kabhi sukoon paane ki koshish bhi ek aur pressure ban jaati hai. Is nazariye ko maanna zaroori nahi.",
+      "why": "Janaka describes striving and his claimed spiritual resolution. You might ask whether the demand to feel calm adds pressure; the verse does not require rejecting emotions.",
+      "prompt": "Could you let this moment be unfinished instead of making calm another task?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language.",
+      "start": 399,
+      "end": 708,
+      "locator": "Abiding in the self · PDF page 22",
+      "sourceUrl": "https://en.wikisource.org/wiki/Ashtavakra_Gita",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "ashtavakra-epic-excerpt-1",
+      "sourceId": "ashtavakra-epic",
+      "sectionIndex": 1,
+      "quote": "We have come, O ruler of men, to witness thy sacrificial ceremony and our curiosity, O king, is very great. And we have come here as guests. We want the permission of thy order (to enter). And, O son of Indradyumna, we have come, desirous of seeing the sacrifice, and to meet king Janaka and speak to him. But thy warder obstructs us and for this our anger burneth us like fever.",
+      "heading": "Name what you came for",
+      "moods": [
+        "hurt",
+        "angry",
+        "lonely"
+      ],
+      "needs": [
+        "action",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Ashtavakra apni baat rakhte hain: hum kyun aaye aur humein kya rok raha hai. Aapki zaroorat bhi shabdon mein aa sakti hai.",
+      "why": "At the gate, Ashtavakra states his purpose and frustration. This can prompt clear self-expression without endorsing the epic's hierarchy or conflict.",
+      "prompt": "How could you name your need and the obstacle in one sentence?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita.",
+      "start": 478,
+      "end": 857,
+      "locator": "Vana Parva, section CXXXIII · PDF page 1139",
+      "sourceUrl": "https://archive.sacred-texts.com/hin/m03/m03133.htm",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "ashtavakra-epic-excerpt-2",
+      "sourceId": "ashtavakra-epic",
+      "sectionIndex": 1,
+      "quote": "True growth cannot be inferred from the mere development of the body, as the growth of the knots of the Salmali tree cannot signify its age. That tree is called full-grown which although slender and short, beareth fruits.",
+      "heading": "A first impression can miss a person",
+      "moods": [
+        "ashamed",
+        "hurt",
+        "uncertain",
+        "jealous"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Sirf body, umar ya pehli nazar se kisi ko poora nahi samajh sakte. Aapki value ko prove karna zaroori nahi.",
+      "why": "Ashtavakra challenges judging knowledge by physical development. His fruit-bearing analogy is historical, not a rule that worth depends on productivity.",
+      "prompt": "Which first impression about you feels too narrow?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita.",
+      "start": 1867,
+      "end": 2088,
+      "locator": "Vana Parva, section CXXXIII · PDF page 1139",
+      "sourceUrl": "https://archive.sacred-texts.com/hin/m03/m03133.htm",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "ashtavakra-epic-excerpt-3",
+      "sourceId": "ashtavakra-epic",
+      "sectionIndex": 1,
+      "quote": "One is not old because his head is gray. But the gods regard him as old who, although a child in years, is yet possessed of knowledge. The sages have not laid down that a man's merit consists in years, or gray hair, or wealth, or friends.",
+      "heading": "Age and status are incomplete measures",
+      "moods": [
+        "ashamed",
+        "jealous",
+        "hurt",
+        "okay"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Umar, paisa ya social circle kisi ki poori pehchaan nahi hai.",
+      "why": "Ashtavakra questions age and status as measures of merit. The ancient text's values can be examined rather than accepted wholesale.",
+      "prompt": "Which measure of yourself would you like to question?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita.",
+      "start": 2385,
+      "end": 2623,
+      "locator": "Vana Parva, section CXXXIII · PDF page 1139",
+      "sourceUrl": "https://archive.sacred-texts.com/hin/m03/m03133.htm",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "kafka-metamorphosis-excerpt-1",
+      "sourceId": "kafka-metamorphosis",
+      "sectionIndex": 0,
+      "quote": "At the same time,\nthough, he did not forget to remind himself that calm consideration was\nmuch better than rushing to desperate conclusions. At times like this\nhe would direct his eyes to the window and look out as clearly as he\ncould,",
+      "heading": "Even in confusion, a pause",
+      "moods": [
+        "overwhelmed",
+        "anxious",
+        "looping",
+        "restless"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Gregor uljhan ke beech ruk kar sochne ki koshish karta hai. Yeh pehchaan ka pal hai, relief ka vaada nahi.",
+      "why": "A hesitation inside disturbing fiction may resonate with mental overload, without making Gregor's story a model for your own.",
+      "prompt": "Would a pause, a clearer view, or another person help before your next decision?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress.",
+      "start": 10416,
+      "end": 10651,
+      "locator": "I",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5200",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "kafka-metamorphosis-excerpt-2",
+      "sourceId": "kafka-metamorphosis",
+      "sectionIndex": 1,
+      "quote": "Unlike him, she was very fond of music and a\ngifted and expressive violinist, it was his secret plan to send her to\nthe conservatory next year even though it would cause great expense\nthat would have to be made up for in some other way. During Gregor’s\nshort periods in town, conversation with his sister would often turn to\nthe conservatory but it was only ever mentioned as a lovely dream that\ncould never be realised.",
+      "heading": "Remembering what matters to someone",
+      "moods": [
+        "lonely",
+        "sad",
+        "hurt",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "comfort"
+      ],
+      "nuances": [],
+      "hinglish": "Connection kabhi kisi ki chhoti si khwahish ko yaad rakhne mein bhi hota hai.",
+      "why": "Gregor remembers his sister's musical hopes. This is a point of connection within a painful story, not a promise about how relationships resolve.",
+      "prompt": "Whose hopes do you remember, and who might remember yours?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress.",
+      "start": 13944,
+      "end": 14364,
+      "locator": "II",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5200",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "kafka-metamorphosis-excerpt-3",
+      "sourceId": "kafka-metamorphosis",
+      "sectionIndex": 2,
+      "quote": "Was he an animal if music could captivate him so? It seemed to him that\nhe was being shown the way to the unknown nourishment he had been\nyearning for.",
+      "heading": "A moment that still reaches you",
+      "moods": [
+        "numb",
+        "sad",
+        "lonely",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Music ya koi aur cheez andar tak pahunch sakti hai. Kuch mehsoos karna force karna zaroori nahi.",
+      "why": "Music touches Gregor during alienation. This can invite curiosity about what reaches you, while leaving room for feeling nothing or declining the story.",
+      "prompt": "Is there an ordinary sound, place or activity you feel curious about, without needing it to change your mood?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress.",
+      "start": 19567,
+      "end": 19718,
+      "locator": "III",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5200",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "kafka-trial-excerpt-1",
+      "sourceId": "kafka-trial",
+      "sectionIndex": 1,
+      "quote": "it was a kind of pride that\nmade K. want to go on foot, this was his affair and the idea of any help\nfrom strangers, however slight, was repulsive to him, he also wanted to\navoid asking for anyone's help because that would initiate them into the\naffair even if only slightly.",
+      "heading": "When help feels exposing",
+      "moods": [
+        "lonely",
+        "ashamed",
+        "overwhelmed",
+        "anxious"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Madad maangna kabhi private baat kholne jaisa lagta hai. Aap decide kar sakte ho kitna share karna hai.",
+      "why": "K. resists involving strangers. This may resonate with the tension between privacy and support; his refusal is not advice to face difficulty alone.",
+      "prompt": "What is the smallest amount you would feel comfortable sharing with someone trustworthy?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation.",
+      "start": 4836,
+      "end": 5111,
+      "locator": "Chapter Two: First Cross-examination",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7849",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "kafka-trial-excerpt-2",
+      "sourceId": "kafka-trial",
+      "sectionIndex": 7,
+      "quote": "I repeat that all this is just a ridiculous\nsuperstition, and in most cases it's completely disproved by the facts,\nbut when you live in that society it's hard to hold yourself back from\nbeliefs like that. Just think how much effect that superstition can\nhave.",
+      "heading": "A convincing label can still be wrong",
+      "moods": [
+        "ashamed",
+        "anxious",
+        "looping",
+        "uncertain"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Koi baat baar-baar sunne se sach nahi ho jaati. Label aur evidence ko alag dekh sakte ho.",
+      "why": "A character identifies a superstition as unreliable yet socially powerful. This invites a check on labels, not dismissal of genuine concerns.",
+      "prompt": "Which label are you treating as evidence, and what do the facts show?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation.",
+      "start": 17431,
+      "end": 17691,
+      "locator": "Chapter Eight: Block, the businessman--Dismissing the lawyer",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7849",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "kafka-trial-excerpt-3",
+      "sourceId": "kafka-trial",
+      "sectionIndex": 8,
+      "quote": "Every hour that he could not be in the office was a cause of concern\nfor him, he was no longer able to make use of his time in the office\nanything like as well as he had previously, he spent many hours merely\npretending to do important work, but that only increased his anxiety\nabout not being in the office.",
+      "heading": "Pressure crowds out the work",
+      "moods": [
+        "exhausted",
+        "anxious",
+        "overwhelmed"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Kaam ki chinta itni jagah le sakti hai ki kaam karna hi mushkil lage. Yeh ek fictional pehchaan hai, diagnosis nahi.",
+      "why": "K.'s work anxiety occupies the time he hoped to use. This can recognize pressure without treating the bleak setting as your future.",
+      "prompt": "Would lowering one demand or asking for clearer expectations make the next task smaller?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation.",
+      "start": 387,
+      "end": 695,
+      "locator": "Chapter Nine: In the Cathedral",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/7849",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "machiavelli-the-prince-excerpt-1",
+      "sourceId": "machiavelli-the-prince",
+      "sectionIndex": 2,
+      "quote": "just as those who draw landscapes place themselves below in the plain to contemplate the nature of the mountains and of lofty places, and in order to contemplate the plains place themselves upon high mountains, even so to understand the nature of the people it needs to be a prince, and to understand that of princes it needs to be of the people.",
+      "heading": "A view depends on where you stand",
+      "moods": [
+        "uncertain",
+        "hurt",
+        "jealous",
+        "unsure"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Nazariya badalne se wahi cheez alag dikh sakti hai. Doosre ka view samajhna, apni baat chhodna nahi.",
+      "why": "In a dedication about rulers and subjects, Machiavelli compares perspective to drawing landscapes. This limited analogy invites another viewpoint, not manipulation.",
+      "prompt": "What might someone in a different position see that you cannot see yet?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+      "start": 1733,
+      "end": 2079,
+      "locator": "Dedication",
+      "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott/text/dedication",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "machiavelli-the-prince-excerpt-2",
+      "sourceId": "machiavelli-the-prince",
+      "sectionIndex": 25,
+      "quote": "Therefore a wise prince ought to hold a third course by choosing the wise men in his state, and giving to them only the liberty of speaking the truth to him, and then only of those things of which he inquires, and of none others; but he ought to question them upon everything, and listen to their opinions, and afterwards form his own conclusions.",
+      "heading": "Ask, listen, make your judgment",
+      "moods": [
+        "uncertain",
+        "looping",
+        "unsure"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Kisi bharosemand insaan se rai le sakte ho, phir apne facts aur needs ke saath faisla kar sakte ho.",
+      "why": "Machiavelli advises a ruler who tightly controls counsel. Only the question-and-listen theme is offered; this restrictive power structure is not recommended for relationships.",
+      "prompt": "Who could offer a useful perspective while respecting that the decision is yours?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+      "start": 716,
+      "end": 1063,
+      "locator": "XXIII",
+      "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott/text/chapter-23",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "machiavelli-the-prince-excerpt-3",
+      "sourceId": "machiavelli-the-prince",
+      "sectionIndex": 27,
+      "quote": "Nevertheless, not to extinguish our free will, I hold it to be true that Fortune is the arbiter of one-half of our actions,46 but that she still leaves us to direct the other half, or perhaps a little less.",
+      "heading": "Some influence, not total control",
+      "moods": [
+        "anxious",
+        "overwhelmed",
+        "uncertain",
+        "guilty"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Sab kuch aapke control mein nahi. Jo chhota hissa influence kar sakte ho, usse shuru karne par soch sakte ho.",
+      "why": "Machiavelli proposes a metaphorical division between fortune and agency. The fraction is his speculation, not a measured fact about control or responsibility.",
+      "prompt": "What is one influence you have, and one outcome you do not have to carry alone?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+      "start": 689,
+      "end": 895,
+      "locator": "XXV",
+      "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott/text/chapter-25",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "machiavelli-discourses-on-livy-excerpt-1",
+      "sourceId": "machiavelli-discourses-on-livy",
+      "sectionIndex": 2,
+      "quote": "And although the task be arduous, still, with the help of those at whose instance I assumed the burden, I hope to carry it forward so far, that another shall have no long way to go to bring it to its destination.",
+      "heading": "You need not finish everything alone",
+      "moods": [
+        "overwhelmed",
+        "exhausted",
+        "uncertain"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Mushkil kaam ko akela poora karna zaroori nahi. Kisi aur ke saath uska agla hissa kar sakte ho.",
+      "why": "In his preface, Machiavelli imagines others continuing an unfinished study. This image of shared work is not a demand to keep pushing through fatigue.",
+      "prompt": "What part could you share, postpone or leave for someone else?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+      "start": 3759,
+      "end": 3971,
+      "locator": "Preface",
+      "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/discourses-on-livy/ninian-hill-thomson/text/preface-1-1",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "machiavelli-discourses-on-livy-excerpt-2",
+      "sourceId": "machiavelli-discourses-on-livy",
+      "sectionIndex": 41,
+      "quote": "Anyone comparing the present with the past will soon perceive that in all cities and in all nations there prevail the same desires and passions as always have prevailed;",
+      "heading": "Old words, familiar human concerns",
+      "moods": [
+        "lonely",
+        "unsure",
+        "ashamed",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Purani kitaabon mein bhi insaani khwahish aur uljhan milti hai. Phir bhi har insaan ka context alag hai.",
+      "why": "Machiavelli claims human passions recur across history. This may invite recognition, but his sweeping claim should not erase differences or predict events.",
+      "prompt": "Does a familiar pattern appear here, and what is different about your situation?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+      "start": 76,
+      "end": 245,
+      "locator": "XXXIX",
+      "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/discourses-on-livy/ninian-hill-thomson/text/chapter-1-39",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "machiavelli-discourses-on-livy-excerpt-3",
+      "sourceId": "machiavelli-discourses-on-livy",
+      "sectionIndex": 107,
+      "quote": "And hence it comes that a commonwealth endures longer, and has a more sustained good fortune than a princedom, because from the diversity in the characters of its citizens, it can adapt itself better than a prince can to the diversity of times.",
+      "heading": "More than one way to respond",
+      "moods": [
+        "uncertain",
+        "jealous",
+        "looping",
+        "restless"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Har situation mein ek hi tareeka fit nahi hota. Alag nazariye milkar options badha sakte hain.",
+      "why": "Machiavelli attributes republics' adaptability to varied characters. As an analogy, this invites more than one response; it is not a rule for mental health.",
+      "prompt": "What is a second safe approach you could consider rather than repeating the first?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+      "start": 2361,
+      "end": 2605,
+      "locator": "IX",
+      "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/discourses-on-livy/ninian-hill-thomson/text/chapter-3-9",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "aurelius-meditations-passage-1",
+      "sourceId": "aurelius-meditations",
+      "sectionIndex": 6,
+      "quote": "At what time soever thou\r\n      wilt, it is in thy power to retire into thyself, and to be at rest, and\r\n      free from all businesses.",
+      "heading": "Permission for a pause",
+      "moods": [
+        "overwhelmed",
+        "anxious",
+        "restless",
+        "exhausted"
+      ],
+      "needs": [
+        "comfort",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Marcus ek chhote viraam ka nazariya dete hain. Andar dhyaan dena achha na lage toh aas-paas ki cheezon par dhyaan de sakte ho.",
+      "why": "Marcus imagines a retreat from business. You can consider a practical pause without accepting his claim that inner calm is always within reach.",
+      "prompt": "Would a quieter place or a brief break feel useful right now?",
+      "intensityMax": 4,
+      "sensitive": false,
+      "contentNote": "Historical moral reflections include death, hierarchy and severe self-discipline. These are a perspective to examine, not demands to suppress emotion.",
+      "start": 1362,
+      "end": 1498,
+      "locator": "THE FOURTH BOOK",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2680/pg2680-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "aurelius-meditations-passage-2",
+      "sourceId": "aurelius-meditations",
+      "sectionIndex": 6,
+      "quote": "They will say commonly, Meddle not with many things, if thou wilt\r\n      live cheerfully. Certainly there is nothing better, than for a man to\r\n      confine himself to necessary actions; to such and so many only, as reason\r\n      in a creature that knows itself born for society, will command and enjoin.",
+      "heading": "Choose what is necessary",
+      "moods": [
+        "overwhelmed",
+        "exhausted",
+        "uncertain",
+        "looping"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [
+        "Too many demands",
+        "Cannot choose",
+        "Cannot start"
+      ],
+      "hinglish": "Har cheez ek saath karna zaroori nahi. Aaj sach mein kis cheez ki zaroorat hai?",
+      "why": "This Stoic passage questions multiplying tasks. It can invite reducing a demand; it does not require ignoring obligations or pushing through fatigue.",
+      "prompt": "Which one demand could you reduce, postpone, or share?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Historical moral reflections include death, hierarchy and severe self-discipline. These are a perspective to examine, not demands to suppress emotion.",
+      "start": 14633,
+      "end": 14938,
+      "locator": "THE FOURTH BOOK",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2680/pg2680-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "aurelius-meditations-passage-3",
+      "sourceId": "aurelius-meditations",
+      "sectionIndex": 3,
+      "quote": "Of\r\n      him also I learned how to receive favours and kindnesses (as commonly they\r\n      are accounted:) from friends, so that I might not become obnoxious unto\r\n      them, for them, nor more yielding upon occasion, than in right I ought;\r\n      and yet so that I should not pass them neither, as an unsensible and\r\n      unthankful man.",
+      "heading": "Receive care without owing agreement",
+      "moods": [
+        "guilty",
+        "lonely",
+        "hurt",
+        "ashamed"
+      ],
+      "needs": [
+        "comfort",
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [
+        "Setting a boundary",
+        "Taking too much blame"
+      ],
+      "hinglish": "Kisi ki madad lena, har baat mein haan kehne ki zimmedari nahi banata.",
+      "why": "Marcus describes gratitude alongside independence. This offers a lens for receiving support while keeping your own judgment and boundaries.",
+      "prompt": "Could you accept one kindness without promising more than you can give?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Historical moral reflections include death, hierarchy and severe self-discipline. These are a perspective to examine, not demands to suppress emotion.",
+      "start": 4165,
+      "end": 4506,
+      "locator": "THE FIRST BOOK",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2680/pg2680-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "epictetus-discourses-passage-1",
+      "sourceId": "epictetus-discourses",
+      "sectionIndex": 3,
+      "quote": "Of things some are in our power, and others are not. In our power are opinion\r\n([Greek: hupolaepsis]), movement towards a thing ([Greek: hormae]), desire,\r\naversion ([Greek: echchlisis]), turning from a thing; and in a word, whatever\r\nare our acts. Not in our power are the body, property, reputation, offices\r\n(magisterial power), and in a word, whatever are not our own acts.",
+      "heading": "Influence is smaller than total control",
+      "moods": [
+        "anxious",
+        "guilty",
+        "uncertain",
+        "overwhelmed"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [
+        "Future uncertainty",
+        "Taking too much blame"
+      ],
+      "hinglish": "Sab kuch aapke bas mein nahi. Ek chhota influence dhoondhna, poori zimmedari uthana nahi hai.",
+      "why": "Epictetus draws a strict ancient distinction about control. Today, thoughts and feelings are not simply chosen; the useful question is what practical influence you have.",
+      "prompt": "What is one choice you have, and one outcome that also depends on others?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Contains slavery, disability, death and harsh ancient moral judgments. External harm is real; readers are not to blame for distress.",
+      "start": 0,
+      "end": 377,
+      "locator": "I.",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10661/pg10661-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "epictetus-discourses-passage-2",
+      "sourceId": "epictetus-discourses",
+      "sectionIndex": 6,
+      "quote": "When you are going to take in hand any act remind yourself what kind of an act\r\nit is. If you are going to bathe, place before yourself what happens in the\r\nbath; some splashing the water, others pushing against one another, others\r\nabusing one another, and some stealing;",
+      "heading": "Plan for an imperfect situation",
+      "moods": [
+        "anxious",
+        "uncertain",
+        "restless",
+        "angry"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Kisi situation mein chhoti rukawat ki jagah pehle se rakh sakte ho. Har cheez smooth hona zaroori nahi.",
+      "why": "The bathhouse example anticipates interruptions. It can prompt a simple plan for ordinary friction, not vigilance for every possible threat or tolerance of harm.",
+      "prompt": "What is one ordinary obstacle you could leave a little time or space for?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Contains slavery, disability, death and harsh ancient moral judgments. External harm is real; readers are not to blame for distress.",
+      "start": 0,
+      "end": 272,
+      "locator": "IV.",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10661/pg10661-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "epictetus-discourses-passage-3",
+      "sourceId": "epictetus-discourses",
+      "sectionIndex": 17,
+      "quote": "Remember that in life you ought to behave as at a banquet. Suppose that\r\nsomething is carried round and is opposite to you. Stretch out your hand and\r\ntake a portion with decency. Suppose that it passes by you. Do not detain it.\r\nSuppose that it is not yet come to you. Do not send your desire forward to it,\r\nbut wait till it is opposite to you.",
+      "heading": "A metaphor for waiting and comparison",
+      "moods": [
+        "jealous",
+        "restless",
+        "uncertain"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Yeh intezaar ka ek purana metaphor hai. Dusron ka waqt dekhkar apni value tay karna zaroori nahi.",
+      "why": "The banquet image explores wanting what has not arrived. Use it to question comparison, not as a rule about food or a demand to stop wanting things.",
+      "prompt": "Which comparison is making your own pace harder to see?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Contains slavery, disability, death and harsh ancient moral judgments. External harm is real; readers are not to blame for distress.",
+      "start": 0,
+      "end": 346,
+      "locator": "XV.",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10661/pg10661-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "seneca-dialogues-passage-1",
+      "sourceId": "seneca-dialogues",
+      "sectionIndex": 12,
+      "quote": "Men’s minds ought to have relaxation: they rise up better and\r\nmore vigorous after rest. We must not force crops from rich fields,\r\nfor an unbroken course of heavy crops will soon exhaust their\r\nfertility, and so also the liveliness of our minds will be destroyed\r\nby unceasing labour, but they will recover their strength after\r\na short period of rest and relief:",
+      "heading": "Rest is part of having a mind",
+      "moods": [
+        "exhausted",
+        "numb",
+        "overwhelmed",
+        "sad"
+      ],
+      "needs": [
+        "comfort",
+        "perspective",
+        "action"
+      ],
+      "nuances": [
+        "Mental fatigue",
+        "Too tired to feel",
+        "Cannot start"
+      ],
+      "hinglish": "Lagataar kaam se mann sunn ya thaka lag sakta hai. Aaram ko earn karna zaroori nahi.",
+      "why": "Seneca compares sustained effort to overworked soil and argues for rest. This is a historical reflection, not a diagnosis of why you feel tired or numb.",
+      "prompt": "What could you put down briefly without making rest another task?",
+      "intensityMax": 4,
+      "sensitive": false,
+      "contentNote": "Includes death, suicide, violence and dated moral views. Includes On the Shortness of Life and On Anger; not clinical advice.",
+      "start": 69359,
+      "end": 69723,
+      "locator": "Of Peace of Mind (Dialogue IX)",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/64576/pg64576-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "seneca-dialogues-passage-2",
+      "sourceId": "seneca-dialogues",
+      "sectionIndex": 12,
+      "quote": "whose breast is ready to receive all\r\nyour secrets with safety, whose knowledge of your actions you\r\nfear less than your own conscience, whose conversation removes\r\nyour anxieties, whose advice assists your plans, whose cheerfulness\r\ndispels your gloom, whose very sight delights you!",
+      "heading": "A person who feels safe to talk to",
+      "moods": [
+        "lonely",
+        "sad",
+        "hurt",
+        "ashamed",
+        "numb"
+      ],
+      "needs": [
+        "comfort",
+        "understanding",
+        "action"
+      ],
+      "nuances": [
+        "Not understood",
+        "Missing connection",
+        "Not valued"
+      ],
+      "hinglish": "Kabhi kisi bharosemand insaan ke saath baithna hi ek sahara ho sakta hai. Sab kuch batana zaroori nahi.",
+      "why": "Seneca describes a trusted friend. The image can help you notice the kind of company you want, without promising that another person will remove difficult feelings.",
+      "prompt": "Is there someone who could listen to one small part of what you are carrying?",
+      "intensityMax": 4,
+      "sensitive": false,
+      "contentNote": "Includes death, suicide, violence and dated moral views. Includes On the Shortness of Life and On Anger; not clinical advice.",
+      "start": 31338,
+      "end": 31622,
+      "locator": "Of Peace of Mind (Dialogue IX)",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/64576/pg64576-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "seneca-dialogues-passage-3",
+      "sourceId": "seneca-dialogues",
+      "sectionIndex": 7,
+      "quote": "The greatest remedy for anger is delay: beg anger to grant\r\nyou this at the first, not in order that it may pardon the offence,\r\nbut that it may form a right judgment about it:",
+      "heading": "A pause before the response",
+      "moods": [
+        "angry",
+        "hurt",
+        "restless",
+        "looping"
+      ],
+      "needs": [
+        "perspective",
+        "action"
+      ],
+      "nuances": [
+        "Boundary crossed",
+        "Treated unfairly",
+        "Replaying a conversation"
+      ],
+      "hinglish": "Gussa hona galat nahi. Agar safe ho, response dene se pehle thoda waqt le sakte ho.",
+      "why": "The ancient author calls delay a remedy. Here it is an optional prompt to pause before acting, not a promise anger will disappear or a requirement to forgive harm.",
+      "prompt": "If it is safe, what would you like to understand before replying?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Includes death, suicide, violence and dated moral views. Includes On the Shortness of Life and On Anger; not clinical advice.",
+      "start": 53838,
+      "end": 54014,
+      "locator": "On Anger, Book II (Dialogue IV)",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/64576/pg64576-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "plato-apology-passage-1",
+      "sourceId": "plato-apology",
+      "sectionIndex": 2,
+      "quote": "I neither\r\nknow nor think that I know. In this latter particular, then, I seem to have\r\nslightly the advantage of him.",
+      "heading": "Not knowing can be an honest place",
+      "moods": [
+        "uncertain",
+        "unsure",
+        "ashamed",
+        "looping"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [
+        "Needing certainty",
+        "Hard to describe",
+        "Not good enough"
+      ],
+      "hinglish": "Abhi jawab na hona, aapki kami ka saboot nahi. Imaandari se na-jaanna bhi ek shuruaat hai.",
+      "why": "Socrates distinguishes uncertainty from pretending to know. This may help examine a demand for certainty without declaring ignorance a virtue in every situation.",
+      "prompt": "What can you leave as not yet known today?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Socrates defends himself at a trial that ends in a death sentence. Historical philosophy, not advice to accept injustice.",
+      "start": 11002,
+      "end": 11120,
+      "locator": "APOLOGY",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1656/pg1656-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "plato-apology-passage-2",
+      "sourceId": "plato-apology",
+      "sectionIndex": 2,
+      "quote": "Nor do I converse only with those who pay; but any one, whether he be rich or\r\npoor, may ask and answer me and listen to my words;",
+      "heading": "Conversation is not reserved for the impressive",
+      "moods": [
+        "lonely",
+        "ashamed",
+        "hurt",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Sawal poochhne ya baat karne ke liye impressive ya ameer hona zaroori nahi.",
+      "why": "In his defence, Socrates describes conversation open to rich and poor. It can prompt reflection on belonging; it does not establish that every real-world setting is welcoming.",
+      "prompt": "What question would you ask if you did not have to impress anyone?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Socrates defends himself at a trial that ends in a death sentence. Historical philosophy, not advice to accept injustice.",
+      "start": 39052,
+      "end": 39182,
+      "locator": "APOLOGY",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1656/pg1656-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "plato-apology-passage-3",
+      "sourceId": "plato-apology",
+      "sectionIndex": 2,
+      "quote": "where I could do the greatest good privately to every one of\r\nyou, thither I went, and sought to persuade every man among you that he must\r\nlook to himself, and seek virtue and wisdom before he looks to his private\r\ninterests, and look to the state before he looks to the interests of the state;",
+      "heading": "What deserves your attention?",
+      "moods": [
+        "jealous",
+        "guilty",
+        "uncertain",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Bahari achievements ke saath apni values ko bhi dekh sakte ho. Dusron ki list aapki list hona zaroori nahi.",
+      "why": "Socrates explains his own priorities in a courtroom defence. You can examine your values without adopting his ordering of virtue, private life, and the state.",
+      "prompt": "Which value would you like one small decision to reflect today?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Socrates defends himself at a trial that ends in a death sentence. Historical philosophy, not advice to accept injustice.",
+      "start": 46807,
+      "end": 47102,
+      "locator": "APOLOGY",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1656/pg1656-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "laozi-tao-passage-1",
+      "sourceId": "laozi-tao",
+      "sectionIndex": 3,
+      "quote": "The tree which fills the arms grew from the tiniest sprout; the tower\r\n      of nine storeys rose from a (small) heap of earth; the journey of a\r\n      thousand li commenced with a single step.",
+      "heading": "A beginning can be small",
+      "moods": [
+        "overwhelmed",
+        "exhausted",
+        "uncertain",
+        "unsure"
+      ],
+      "needs": [
+        "comfort",
+        "perspective",
+        "action"
+      ],
+      "nuances": [
+        "Cannot start",
+        "Cannot choose",
+        "A difficult decision"
+      ],
+      "hinglish": "Badi cheez ki shuruaat bahut chhoti ho sakti hai. Aaj ka kadam aapki energy ke hisaab se ho sakta hai.",
+      "why": "The text uses images of gradual growth. As an analogy, it invites a small beginning; it does not demand progress when rest or support is what you need.",
+      "prompt": "If a step would help, what is the smallest version that fits your energy?",
+      "intensityMax": 4,
+      "sensitive": false,
+      "contentNote": "Spiritual and political philosophy with dated language. Readers need not adopt its metaphysical claims.",
+      "start": 21344,
+      "end": 21537,
+      "locator": "Tao Teh King, chapter 64",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "laozi-tao-passage-2",
+      "sourceId": "laozi-tao",
+      "sectionIndex": 2,
+      "quote": "He who knows other men is discerning; he who knows himself is\r\n      intelligent. He who overcomes others is strong; he who overcomes himself\r\n      is mighty.",
+      "heading": "Curiosity can turn inward, too",
+      "moods": [
+        "uncertain",
+        "unsure",
+        "jealous",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Dusron ko samajhne ke saath khud ke patterns ko bhi curiosity se dekh sakte ho. Khud se ladna zaroori nahi.",
+      "why": "Laozi pairs knowledge of others with self-knowledge and self-mastery. You can consider self-curiosity while questioning the language of conquering yourself.",
+      "prompt": "What is one preference or need of your own that you are learning to notice?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Spiritual and political philosophy with dated language. Readers need not adopt its metaphysical claims.",
+      "start": 25683,
+      "end": 25842,
+      "locator": "Tao Teh King, chapter 33",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "laozi-tao-passage-3",
+      "sourceId": "laozi-tao",
+      "sectionIndex": 2,
+      "quote": "He who is satisfied with his lot is rich; he who goes on acting\r\n      with energy has a (firm) will.",
+      "heading": "What would enough mean to you?",
+      "moods": [
+        "jealous",
+        "overwhelmed",
+        "restless",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Enough ka matlab aap khud soch sakte ho. Apni zarooratein ya mushkilein chhupana contentment nahi hai.",
+      "why": "This short aphorism links contentment with richness. It can open a question about comparison without requiring acceptance of deprivation, unfairness, or unmet needs.",
+      "prompt": "What would enough look like for today, rather than for an entire life?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Spiritual and political philosophy with dated language. Readers need not adopt its metaphysical claims.",
+      "start": 25843,
+      "end": 25944,
+      "locator": "Tao Teh King, chapter 33",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/216/pg216-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "nietzsche-zarathustra-passage-1",
+      "sourceId": "nietzsche-zarathustra",
+      "sectionIndex": 61,
+      "quote": "“This—is now MY way,—where is yours?” Thus did I answer those\r\n      who asked me “the way.” For THE way—it doth not exist!",
+      "heading": "Your path need not be someone else’s",
+      "moods": [
+        "uncertain",
+        "ashamed",
+        "jealous",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Yeh character apne raaste ki baat karta hai. Aap kisi ek author ka raasta follow kiye bina apni choices dekh sakte ho.",
+      "why": "Zarathustra rejects a single universal way in a provocative philosophical speech. This is a literary invitation to question borrowed standards, not proof that all choices are equally good.",
+      "prompt": "Which expectation feels borrowed, and which choice feels more like your own?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Provocative philosophical fiction containing death, suicide, violence, religion and misogynistic language. Optional deliberate reading, not distress-relief advice.",
+      "start": 7346,
+      "end": 7469,
+      "locator": "LV. THE SPIRIT OF GRAVITY.",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1998/pg1998-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "nietzsche-zarathustra-passage-2",
+      "sourceId": "nietzsche-zarathustra",
+      "sectionIndex": 61,
+      "quote": "By divers ways and wendings did I arrive at my truth; not by one ladder\r\n      did I mount to the height where mine eye roveth into my remoteness.",
+      "heading": "Learning need not follow one ladder",
+      "moods": [
+        "uncertain",
+        "jealous",
+        "exhausted",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Samajhne ka raasta seedha ya ek hi tarah ka hona zaroori nahi. Apni pace ko kisi aur ki ladder se naapo mat.",
+      "why": "The character describes reaching a view through several paths. The image may help question a rigid timeline; it is not a demand to climb higher or find a final truth.",
+      "prompt": "What are you learning through a route you did not originally expect?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Provocative philosophical fiction containing death, suicide, violence, religion and misogynistic language. Optional deliberate reading, not distress-relief advice.",
+      "start": 6801,
+      "end": 6947,
+      "locator": "LV. THE SPIRIT OF GRAVITY.",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1998/pg1998-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "nietzsche-zarathustra-passage-3",
+      "sourceId": "nietzsche-zarathustra",
+      "sectionIndex": 26,
+      "quote": "A thousand paths are there which have never yet been trodden; a thousand\r\n      salubrities and hidden islands of life. Unexhausted and undiscovered is\r\n      still man and man’s world.",
+      "heading": "Leave room for a possibility you cannot see yet",
+      "moods": [
+        "uncertain",
+        "lonely",
+        "okay",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Abhi saare options dikhna zaroori nahi. Is line ko ek possibility ki tasveer ki tarah le sakte ho, guarantee ki tarah nahi.",
+      "why": "The speech imagines undiscovered paths and possibilities. The surrounding health imagery is metaphorical, not a promise of healing or advice to manage distress alone.",
+      "prompt": "What is one possibility you are willing to remain curious about?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Provocative philosophical fiction containing death, suicide, violence, religion and misogynistic language. Optional deliberate reading, not distress-relief advice.",
+      "start": 5971,
+      "end": 6156,
+      "locator": "XXII. THE BESTOWING VIRTUE.",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1998/pg1998-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    }
+  ]
+}
