@@ -1,0 +1,56 @@
+[
+  {
+    "id": "machiavelli-the-prince",
+    "title": "The Prince",
+    "author": "Niccolò Machiavelli",
+    "translator": "W. K. Marriott",
+    "edition": "Standard Ebooks; historical English translation",
+    "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott",
+    "downloadUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott/downloads/niccolo-machiavelli_the-prince_w-k-marriott.epub?source=download",
+    "epub": "machiavelli-the-prince.epub",
+    "original": "machiavelli-the-prince-original.html",
+    "text": "machiavelli-the-prince-chapters.json",
+    "rights": "Underlying historical work and translation are public domain in the United States; Standard Ebooks production is dedicated to the public domain under CC0. Translator died 1927. Retain source and edition credits.",
+    "rightsEvidence": "https://standardebooks.org/ebooks/niccolo-machiavelli/the-prince/w-k-marriott; EPUB uncopyright.xhtml and imprint.xhtml",
+    "bytes": 459471,
+    "sha256": "4b86754467b0217e5c13feb5d3f08fca2a49843d4321c31b9b1441b46a2bc0d5",
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+    "tags": [
+      "political philosophy",
+      "power",
+      "judgment",
+      "agency"
+    ],
+    "chapters": 26,
+    "format": "EPUB + original HTML + extracted reading sections",
+    "gentle": false,
+    "sectionCount": 30
+  },
+  {
+    "id": "machiavelli-discourses-on-livy",
+    "title": "Discourses on Livy",
+    "author": "Niccolò Machiavelli",
+    "translator": "Ninian Hill Thomson",
+    "edition": "Standard Ebooks; historical English translation",
+    "sourceUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/discourses-on-livy/ninian-hill-thomson",
+    "downloadUrl": "https://standardebooks.org/ebooks/niccolo-machiavelli/discourses-on-livy/ninian-hill-thomson/downloads/niccolo-machiavelli_discourses-on-livy_ninian-hill-thomson.epub?source=download",
+    "epub": "machiavelli-discourses-on-livy.epub",
+    "original": "machiavelli-discourses-on-livy-original.html",
+    "text": "machiavelli-discourses-on-livy-chapters.json",
+    "rights": "Underlying historical work and translation are public domain in the United States; Standard Ebooks production is dedicated to the public domain under CC0. Translator died 1897. Retain source and edition credits.",
+    "rightsEvidence": "https://standardebooks.org/ebooks/niccolo-machiavelli/discourses-on-livy/ninian-hill-thomson; EPUB uncopyright.xhtml and imprint.xhtml",
+    "bytes": 911424,
+    "sha256": "b6ce80526490b64b35ef7f507382671efc8934cd1115f2b46a10bcce4ae232db",
+    "contentNote": "Historical political philosophy including political violence, manipulation, warfare, and dated social assumptions. Reflect critically; not mental-health guidance or advice to manipulate people.",
+    "tags": [
+      "political philosophy",
+      "power",
+      "judgment",
+      "agency"
+    ],
+    "chapters": 142,
+    "format": "EPUB + original HTML + extracted reading sections",
+    "gentle": false,
+    "sectionCount": 149
+  }
+]

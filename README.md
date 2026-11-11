@@ -33,3 +33,7 @@ App design evidence context: https://www.nimh.nih.gov/health/topics/technology-a
 ## Verification
 
 JavaScript syntax check, local HTTP delivery, PDF signature/page-count/SHA-256 validation, extraction chapter count, and in-browser checks of mood refinement, thought splitting/sorting/disposal, the complete five-step reset, explicit anchor save/removal, and source-chapter deep linking. Responsive visual review at iPhone-sized viewport. Actual iPhone/Safari testing remains outstanding.
+
+## Library expansion
+
+Ten additional books: Kafka (Metamorphosis; The Trial), Machiavelli (The Prince; Discourses on Livy), Marcus Aurelius (Meditations), Epictetus (selected Discourses and Encheiridion), Seneca (Minor Dialogues), Plato (Apology), Laozi (Tao Teh King), and Nietzsche (Thus Spake Zarathustra). Additions are downloaded EPUB and original source files, not PDFs. Chapter/section readers are extracted from the full downloaded editions. Kafka/Wyllie translations are copyrighted and redistributed under Project Gutenberg permission and full retained license. Other named historical translations are public domain, with publisher production terms recorded in the manifest. Books are deliberately browsed; no new automatic mood-treatment recommendations were added.

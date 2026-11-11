@@ -1,0 +1,60 @@
+[
+  {
+    "id": "kafka-metamorphosis",
+    "title": "Metamorphosis",
+    "author": "Franz Kafka",
+    "translator": "David Wyllie",
+    "edition": "Project Gutenberg ebook 5200; English translation released 2005, electronic edition updated 2026",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/5200",
+    "downloadUrl": "https://www.gutenberg.org/ebooks/5200.epub3.images",
+    "epub": "kafka-metamorphosis.epub",
+    "original": "kafka-metamorphosis-original.txt",
+    "text": "kafka-metamorphosis-chapters.json",
+    "chapters": 3,
+    "rights": "Copyrighted English translation by David Wyllie, distributed by Project Gutenberg with permission. Redistribute free of charge under the full Project Gutenberg License, retaining notices and original-format access. Not described as public domain.",
+    "rightsEvidence": "Downloaded original TXT header marks COPYRIGHTED; license sections 1.C and 1.E.1–1.E.7 authorize redistribution subject to conditions. Full notices retained in TXT, EPUB, and extraction JSON.",
+    "licenseNotice": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.",
+    "licenseUrl": "kafka-metamorphosis-original.txt",
+    "bytes": 317251,
+    "sha256": "81a841cac683831522c7ae24ba6de819f1e360494ed0a122895efe93b4feeb97",
+    "originalSha256": "0933283a19a4daaef0d412e8f69c74fae126b0a946cb74b8f3c783a8e869830d",
+    "contentNote": "Alienation, family rejection, injury and death; not automatically recommended during acute distress.",
+    "tags": [
+      "alienation",
+      "belonging",
+      "family",
+      "identity"
+    ],
+    "gentle": false,
+    "format": "EPUB + original TXT + extracted chapters"
+  },
+  {
+    "id": "kafka-trial",
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "translator": "David Wyllie",
+    "edition": "Project Gutenberg ebook 7849; English translation released 2005, electronic edition updated 2026",
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7849",
+    "downloadUrl": "https://www.gutenberg.org/ebooks/7849.epub3.images",
+    "epub": "kafka-trial.epub",
+    "original": "kafka-trial-original.txt",
+    "text": "kafka-trial-chapters.json",
+    "chapters": 10,
+    "rights": "Copyrighted English translation by David Wyllie, distributed by Project Gutenberg with permission. Redistribute free of charge under the full Project Gutenberg License, retaining notices and original-format access. Not described as public domain.",
+    "rightsEvidence": "Downloaded original TXT header marks COPYRIGHTED; license sections 1.C and 1.E.1–1.E.7 authorize redistribution subject to conditions. Full notices retained in TXT, EPUB, and extraction JSON.",
+    "licenseNotice": "This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.",
+    "licenseUrl": "kafka-trial-original.txt",
+    "bytes": 238359,
+    "sha256": "61af1d159a67511fb4e734696d2476d25315d971958784eb2e01f25e2188d502",
+    "originalSha256": "31351cb91dc50deb9bc3fb527b24b1352d4f9743a95f8d1a38bdfe0a9ec6b42f",
+    "contentNote": "Oppressive bureaucracy, anxiety, sexual coercion and execution; optional intense reading, not a therapeutic recommendation.",
+    "tags": [
+      "uncertainty",
+      "power",
+      "judgment",
+      "bureaucracy"
+    ],
+    "gentle": false,
+    "format": "EPUB + original TXT + extracted chapters"
+  }
+]
