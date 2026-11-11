@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "retrieved": "2026-11-11",
+  "scope": "A curated starter library, not every PDF on the internet. Source texts are literature and philosophy, not clinical advice.",
+  "readingNotes": [
+    "Mood-to-story links are editorial suggestions, not psychological diagnoses or evidence of treatment efficacy.",
+    "Hinglish reflections should be labelled original interpretations, not literal translations.",
+    "The Mahabharata Ashtavakra story and the Ashtavakra Gita are different works.",
+    "Older translations include dated disability, caste and gender language. Readers may skip any passage.",
+    "Original Gita metaphysics about the body and world should not be presented as medical facts or prompts to ignore distress."
+  ],
+  "sources": [
+    {
+      "id": "oedipus",
+      "title": "Oedipus the King, in The Tragedies of Sophocles",
+      "author": "Sophocles",
+      "translator": "Sir Richard C. Jebb",
+      "edition": "Cambridge University Press, 1904; Online Library of Liberty ebook PDF, 2011",
+      "sourceUrl": "https://oll.libertyfund.org/titles/jebb-the-tragedies-of-sophocles",
+      "downloadUrl": "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/1155/Sophocles_0561_EBk_v6.0.pdf",
+      "pdf": "sophocles-jebb.pdf",
+      "text": "oedipus-pages.json",
+      "pages": 228,
+      "selectedPdfPages": [
+        6,
+        41
+      ],
+      "rights": "Underlying text public domain; publisher states PDF may be used freely for educational/academic purposes and not for profit. Personal non-commercial starter library only; use another source PDF for commercial distribution.",
+      "rightsEvidence": "PDF page 3; publisher source page Copyright section",
+      "contentNote": "Incest, violence, suicide and self-injury. Optional reading; avoid recommending this during acute distress.",
+      "bytes": 749903,
+      "sha256": "f84de2f73c13a63f25f621b57654b159707e7d2aa5b0e0430f0f0dea451e23cd"
+    },
+    {
+      "id": "gita",
+      "title": "The Heart of Awareness: Ashtavakra Gita",
+      "author": "Traditionally attributed to Ashtavakra",
+      "translator": "John Richards",
+      "edition": "Second edition, 1996; downloaded PDF via Internet Archive",
+      "sourceUrl": "https://en.wikisource.org/wiki/Ashtavakra_Gita",
+      "downloadUrl": "https://dn790008.ca.archive.org/0/items/AshtavakraGita_201904/AshtavakraGita.pdf",
+      "pdf": "ashtavakra-richards.pdf",
+      "text": "ashtavakra-chapters.json",
+      "pages": 48,
+      "chapters": 20,
+      "rights": "Translator explicitly dedicates the English translation to the public domain.",
+      "rightsEvidence": "PDF page 3, translator introduction; Wikisource Notes and copyright statement.",
+      "contentNote": "Advaita Vedanta philosophy, not clinical guidance. Includes nondual views and dated gender language.",
+      "bytes": 251203,
+      "sha256": "86048029c4daba72e099cd57a670b4aae564dc176af81e0c404f2f14b42a81d2"
+    },
+    {
+      "id": "ashtavakra-epic",
+      "title": "The Mahabharata, Book 3: Vana Parva, sections CXXXII–CXXXIV",
+      "author": "Traditionally attributed to Vyasa",
+      "translator": "Kisari Mohan Ganguli",
+      "edition": "1883–1896 translation; sacred-texts electronic text assembled as a PDF in 2006",
+      "sourceUrl": "https://archive.sacred-texts.com/hin/m03/m03132.htm",
+      "downloadUrl": "https://wiswo.org/books/_resources/book-reference-pdfs/Ganguli-1896-The-Mahabharata.pdf",
+      "pdf": "mahabharata-ganguli.pdf",
+      "text": "ashtavakra-episode.json",
+      "pages": 5818,
+      "selectedPdfPages": [
+        1137,
+        1146
+      ],
+      "rights": "Underlying translation is public domain. Electronic edition permits non-commercial use with its attribution notice retained; the full downloaded PDF is unmodified.",
+      "rightsEvidence": "PDF electronic title pages state Ganguli 1883–1896, public domain, and non-commercial attribution terms.",
+      "contentNote": "Disability-related insults, caste hierarchy, curses, threatened drowning and death. The birth/ordeal episode is distinct from the philosophical Gita.",
+      "bytes": 23546543,
+      "sha256": "b8d4720ae5607720224834e51987397f2f4ebbfe74472c5c25c6aad6d49ce1bd"
+    }
+  ]
+}
