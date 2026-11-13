@@ -1,0 +1,14 @@
+'use strict';
+const AntarPersonal=(()=>{
+ const buckets=['Unsorted','Can wait','Small action','Need support'];
+ function safeLink(value){try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?url.href:''}catch{return ''}}
+ function responseOutcome(response){return response==='lighter'?'helped':response==='heavier'?'not-helped':'unsure'}
+ function search(items,query='',bucket='any'){const q=query.trim().toLowerCase();return items.filter(x=>(bucket==='any'||x.bucket===bucket)&&(!q||[x.title,x.text,x.bucket].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(!!b.pinned)-Number(!!a.pinned)||Date.parse(b.updatedAt)-Date.parse(a.updatedAt))}
+ return{buckets,safeLink,responseOutcome,search};
+})();
+if(typeof module!=='undefined'&&module.exports)module.exports=AntarPersonal;
+const personalDB=typeof indexedDB==='undefined'?null:new Promise((resolve,reject)=>{const request=indexedDB.open('antar-personal-v1',1);request.onupgradeneeded=()=>request.result.createObjectStore('items',{keyPath:'id'});request.onsuccess=()=>{request.result.onversionchange=()=>request.result.close();resolve(request.result)};request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('Another Antar tab is using an older database. Close it and try again.'))});
+// Catch startup failures; UI reports them without replacing existing data.
+personalDB?.catch(()=>{});
+async function readPersonal(){const db=await personalDB;if(!db)throw Error('Storage unavailable');return new Promise((resolve,reject)=>{const tx=db.transaction('items','readonly'),request=tx.objectStore('items').getAll();request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error)})}
+async function writePersonal(item,expected=null,remove=false){const db=await personalDB;if(!db)throw Error('Storage unavailable');return new Promise((resolve,reject)=>{const tx=db.transaction('items','readwrite'),store=tx.objectStore('items'),request=store.get(item.id);let failure='';request.onsuccess=()=>{const current=request.result;if(expected!==null&&current?.updatedAt!==expected){failure='This item changed in another tab. Reload the saved list before editing again.';tx.abort();return}if(expected===null&&current){failure='An item with that ID already exists. Try again.';tx.abort();return}remove?store.delete(item.id):store.put(item)};tx.oncomplete=()=>resolve();tx.onerror=()=>reject(Error(failure||'Browser storage could not save this item.'));tx.onabort=()=>reject(Error(failure||'Browser storage could not save this item.'))})}

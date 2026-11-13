@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');const vm=require('node:vm');const fs=require('node:fs');
+const P=require('./dist/personal-data.js');
+assert.equal(P.safeLink('javascript:alert(1)'),'');assert.equal(P.safeLink('http://example.com'),'');assert.equal(P.safeLink('https://name:secret@example.com'),'');assert.equal(P.safeLink('https://example.com/song'),'https://example.com/song');
+assert.equal(P.responseOutcome('lighter'),'helped');assert.equal(P.responseOutcome('same'),'unsure');assert.equal(P.responseOutcome('heavier'),'not-helped');
+const items=[{id:'a',title:'A half plan',text:'A friend',bucket:'Can wait',updatedAt:'2026-11-01'},{id:'b',title:'Work',text:'A meeting',bucket:'Small action',updatedAt:'2026-11-03',pinned:true}];
+assert.equal(P.search(items)[0].id,'b');assert.equal(P.search(items,'FRIEND','Can wait')[0].id,'a');assert.equal(P.search(items,'meeting','Can wait').length,0);
+const memory=require('./dist/memory-engine.js'),patterns=require('./dist/patterns.js');const comfortLog={at:'2026-11-12T10:00:00Z',kind:'followup',moods:['okay'],intensity:3,minutes:0,activity:'other',activityDetail:'Same title',outcome:'helped'};const comfortLogs=[{...comfortLog,id:'a',comfortId:'photo-1'},{...comfortLog,id:'b',comfortId:'song-1'}];assert.equal(memory.similarActions(comfortLogs,{},new Date('2026-11-13')).length,2);assert.equal(patterns.summarize(comfortLogs,'2026-11').difficultCount,0);
+let saved=null,route='',gentleClicks;
+const sandbox={AntarPersonal:P,personalId:()=> 'attempt-1',selected:['overwhelmed'],intensity:4,feltNeed:'rest',nuance:'Too many demands',checkins:[],commitCheckins:entries=>{saved=entries;return true},document:{addEventListener:(type,fn)=>{if(type==='click')gentleClicks=fn}},go:value=>route=value,AntarPatterns:{dateKey:()=> '2026-11-13'},Date,monthOffset:0,monthDay:'',logFilters:{},historyEvidenceIds:null};
+vm.createContext(sandbox);vm.runInContext(fs.readFileSync('dist/gentle-help.js','utf8'),sandbox);
+vm.runInContext("startGentleAttempt('reset','A quiet reset');selected=['sad'];intensity=1;saveGentleResponse('same')",sandbox);
+assert.equal(saved.length,1);assert.equal(saved[0].moods[0],'overwhelmed');assert.equal(saved[0].intensity,4);assert.equal(saved[0].outcome,'unsure');assert.equal(saved[0].feltChange,'same');assert.equal(saved[0].durationKnown,false);assert.equal(route,'after-saved');
+vm.runInContext("saveGentleResponse('lighter')",sandbox);assert.equal(saved.length,1,'double tapping cannot save the attempt twice');
+vm.runInContext("selected=['okay'];startGentleAttempt('story','A story');saveGentleResponse('lighter')",sandbox);assert.equal(saved[0].kind,'followup','enjoying a story is not automatically downtime');
+sandbox.commitCheckins=()=>false;vm.runInContext("startGentleAttempt('rest','A break');saveGentleResponse('heavier')",sandbox);assert(vm.runInContext('!!gentleAttempt',sandbox),'failed save retains unsaved response');
+gentleClicks({target:{closest:()=>({dataset:{gentle:'skip-followup'}})}});assert.equal(vm.runInContext('gentleAttempt',sandbox),null);
+console.log('Verified safe external links, pinned/search/bucket behavior, honest felt-change mappings, baseline snapshots, duplicate-tap protection, failed-save recovery, and skip without saving.');

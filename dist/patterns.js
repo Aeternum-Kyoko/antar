@@ -1,7 +1,7 @@
 'use strict';
 const AntarPatterns=(()=>{
  const dateKey=date=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
- function valid(entry){return entry&&typeof entry.id==='string'&&Number.isFinite(Date.parse(entry.at))&&['difficult','rest'].includes(entry.kind)&&Array.isArray(entry.moods)&&Number.isInteger(entry.intensity)&&entry.intensity>=1&&entry.intensity<=5&&Number.isFinite(entry.minutes)&&entry.minutes>=0&&entry.minutes<=1440;}
+ function valid(entry){return entry&&typeof entry.id==='string'&&Number.isFinite(Date.parse(entry.at))&&['difficult','rest','followup'].includes(entry.kind)&&Array.isArray(entry.moods)&&Number.isInteger(entry.intensity)&&entry.intensity>=1&&entry.intensity<=5&&Number.isFinite(entry.minutes)&&entry.minutes>=0&&entry.minutes<=1440;}
  function entriesForMonth(entries,month){return entries.filter(valid).filter(e=>dateKey(new Date(e.at)).slice(0,7)===month);}
  function summarize(entries,month){
   const records=entriesForMonth(entries,month).sort((a,b)=>Date.parse(a.at)-Date.parse(b.at));
