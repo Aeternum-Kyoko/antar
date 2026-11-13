@@ -1,0 +1,33 @@
+/* Phone refinements share the existing Antar palette and type scale. */
+html{scroll-padding-bottom:115px;-webkit-text-size-adjust:100%}
+.app{width:100%}
+nav{grid-template-columns:repeat(5,minmax(0,1fr))}
+nav a{min-width:0;min-height:52px}
+nav a.active span{max-width:100%}
+header{height:auto;min-height:88px;padding-top:max(24px,env(safe-area-inset-top))}
+main{padding-bottom:calc(120px + env(safe-area-inset-bottom));overflow-wrap:anywhere}
+button,.pill,.icon-btn,.text-btn,summary{min-height:44px}
+.icon-btn{width:44px}
+summary{display:list-item;padding:10px 0}
+input,textarea,select{font-size:16px!important;max-width:100%}
+select:focus-visible,summary:focus-visible{outline:3px solid #bd6730;outline-offset:4px}
+input[type=datetime-local],input[type=month]{min-width:0}
+.filter-pair>*{min-width:0}
+.inline-row{flex-wrap:wrap}
+.inline-row>*{min-width:0}
+.need-tile .small,.memory-card .small{font-size:12px}
+.need-tile .text-btn{font-size:12px}
+.checkin-row strong{overflow-wrap:anywhere}
+#toast{bottom:calc(96px + env(safe-area-inset-bottom))}
+.install-link{display:inline-flex;align-items:center;min-height:44px;font-size:13px;text-underline-offset:4px}
+.install-steps{padding-left:22px;margin:16px 0}
+.install-steps li{padding:5px 0}
+.install-status{padding:14px 16px;background:var(--mist);border-radius:14px;margin:16px 0;font-size:14px}
+.connection-banner{background:var(--mist);padding:9px 20px;font-size:12px;text-align:center}
+.connection-banner[hidden]{display:none}
+.pwa-action[hidden]{display:none}
+@media(max-width:360px){.needs-map,.filter-pair{grid-template-columns:1fr}.header-actions{gap:4px}.wordmark{font-size:29px}.wordmark span{margin-left:5px}.need-tile{padding:18px}main{padding-left:18px;padding-right:18px}.calendar-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}.calendar-tabs a,.calendar-tabs span{font-size:11px;overflow-wrap:normal}}
+@media(max-height:520px) and (max-width:949px){nav{padding-top:2px;padding-bottom:max(4px,env(safe-area-inset-bottom))}nav a{min-height:44px}nav a span{font-size:18px}main{min-height:60dvh;padding-bottom:90px}body:has(input:focus,textarea:focus,select:focus) nav{display:none}}
+@media(display-mode:standalone){body{overscroll-behavior-y:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(min-width:950px){.app{width:440px}header{padding-top:28px}#toast{bottom:110px}}

@@ -68,3 +68,12 @@ The calendar now links to all saved history with date, feeling, need, context, h
 Design research: [Daylio](https://daylio.net/) for quick entries and calendar history; [Bearable](https://bearable.app/support/tips/visualise-your-health-data-in-many-forms) for filtered timelines; [How We Feel](https://howwefeel.org/resources) for emotion vocabulary; [Finch](https://help.finchcare.com/hc/en-us/articles/37935669335309-Our-Approach-to-Self-Care) for gentle attainable activities. Original interface and story content; no copied app assets.
 
 Vercel: buildless static deployment with `dist` as output. `.vercelignore` restricts uploads to deployable assets and configuration. Authenticate before linking/deploying; verify Vercel Authentication protects all deployments before publishing this personal app. Browser history stays on its original browser origin and is not uploaded or moved with deployment.
+
+
+Mobile/PWA update: five-column thumb navigation, iPhone safe-area spacing, 16px form controls, 320px calendar/filter/needs layouts, reduced motion, local DM Sans/Lora fonts with OFL licenses, PNG install icons, standalone manifest, and a dedicated install/offline page. Safari installation is manual through Share → Add to Home Screen. Actual physical iPhone installation and keyboard behavior still need device verification.
+
+Offline mode is explicitly enabled by the user. The service worker precaches only the static app, fonts, source manifest, and 60-excerpt catalog. Visited chapter JSON is cached separately (at most 20 source files). PDFs/EPUBs, API responses, exports, and personal logs are never cached by the worker. Existing logs remain browser-local. Offline access persists on that device after hosting sign-out, explained before enabling. Removal unregisters the worker and removes only Antar app caches, retaining logs/anchors. The worker serves a consistent cached shell until the user accepts a waiting update; no forced reload.
+
+Run `node test-pwa.cjs` for manifest/icon validity, full precache completeness, offline app/excerpt responses, visited/unvisited chapter handling, update activation, old-cache cleanup, and request exclusions. Browser QA checks 320/390/430px phone widths, a short landscape viewport, navigation fit, form sizes, install instructions, and actual service worker download/removal.
+
+PWA references: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable and https://web.dev/learn/pwa/update
