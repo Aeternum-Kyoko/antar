@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict');const L=require('./dist/living-model.js');
+assert.equal(L.start('mind'),'mind');assert.equal(L.start('javascript:alert(1)'),'home');assert.equal(L.start(null),'home');
+assert.equal(L.linkId('a','b'),L.linkId('b','a'));assert.notEqual(L.linkId('a-b','c'),L.linkId('a','b-c'));
+assert.equal(L.launchHash('','mind'),'#mind');assert.equal(L.launchHash('#home','mind'),'#home');assert.equal(L.launchHash('#home','mind',true),'#mind');assert.equal(L.launchHash('#experiments','mind',true),'#experiments');
+const items=[{id:'a',kind:'thought',title:'My words',text:'Private words',createdAt:'2026-10-01',revisit:true},{id:'b',kind:'thought',createdAt:'2026-10-02',revisit:false},{id:'c',kind:'words',createdAt:'2026-10-03',revisit:true},{id:'p',kind:'photo',createdAt:'2026-09-01',revisit:true},{id:'l',kind:'link',from:'a',to:'b'},{id:'orphan',kind:'link',from:'a',to:'missing'},{id:'self',kind:'link',from:'a',to:'a'}];
+assert.deepEqual(L.links(items).map(x=>x.id),['l']);assert.equal(L.links(items.filter(x=>x.id!=='a')).length,0,'removing a thought hides dangling associations');assert.equal(L.links(items).length,1,'undoing the removal restores the association');
+const now=new Date('2026-11-13T12:00:00Z');assert.equal(L.revisit(items,{},now),null);assert.equal(L.revisit(items,{enabled:true},now).id,'a');
+assert.equal(L.revisit(items,{enabled:true,lastShownAt:'2026-11-07T12:00:00Z'},now),null);
+assert.equal(L.revisit(items,{enabled:true,lastShownAt:'2026-11-06T12:00:00Z'},now).id,'a');
+assert.equal(L.revisit(items,{enabled:true,lastShownAt:'2027-01-01'},now),null,'clock rollback must not produce extra offers');
+assert.equal(L.revisit(items.map(x=>x.id==='a'?{...x,lastRevisitedAt:'2026-11-05'}:x),{enabled:true},now).id,'c','cycle through selected items rather than repeating one');
+assert.equal(L.revisit(items.filter(x=>!['a','c'].includes(x.id)),{enabled:true},now),null,'photos and unselected thoughts are never eligible');
+console.log('Verified allowed opening screens, undirected connection identities, orphan/undo semantics, explicit resurface consent, weekly limit, clock rollback, and rotation without exposing unselected items.');

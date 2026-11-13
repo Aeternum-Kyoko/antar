@@ -4,7 +4,7 @@
   "short_name": "Antar",
   "description": "Feelings, quiet moments, and stories. At your pace.",
   "lang": "en",
-  "start_url": "/#home",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#f8faf9",
