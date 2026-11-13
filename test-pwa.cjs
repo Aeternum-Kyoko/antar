@@ -11,7 +11,7 @@ async function request(path,mode='cors',method='GET'){let response;handlers.fetc
 (async()=>{
  const manifest=JSON.parse(fs.readFileSync('dist/manifest.webmanifest'));
  assert.equal(manifest.display,'standalone');for(const icon of manifest.icons){const data=fs.readFileSync('dist/'+icon.src);assert.equal(data.readUInt32BE(16),Number(icon.sizes.split('x')[0]));}
- await event('install');assert(storage.get('antar-shell-living-4').size>24);
+ await event('install');assert(storage.get('antar-shell-skills-2').size>24);
  await caches.open('antar-shell-obsolete');await event('activate');assert(claimed);assert(!storage.has('antar-shell-obsolete'));
  offline=true;assert.match(await(await request('/','navigate')).text(),/pwa.js/);assert.match(await(await request('/library/excerpts.json')).text(),/entries/);
  assert.equal(await request('/api/private'),undefined);assert.equal(await request('/library/book.pdf'),undefined);assert.equal(await request('/app.js','cors','POST'),undefined);
