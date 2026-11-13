@@ -3,7 +3,7 @@ const AntarPersonal=(()=>{
  const buckets=['Unsorted','Can wait','Small action','Need support'];
  function safeLink(value){try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?url.href:''}catch{return ''}}
  function responseOutcome(response){return response==='lighter'?'helped':response==='heavier'?'not-helped':'unsure'}
- function search(items,query='',bucket='any'){const q=query.trim().toLowerCase();return items.filter(x=>(bucket==='any'||x.bucket===bucket)&&(!q||[x.title,x.text,x.bucket].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(!!b.pinned)-Number(!!a.pinned)||Date.parse(b.updatedAt)-Date.parse(a.updatedAt))}
+ function search(items,query='',bucket='any'){const q=query.trim().toLowerCase();return items.filter(x=>(bucket==='any'||x.bucket===bucket)&&(!q||[x.title,x.text,x.bucket,...(x.moodIds||[]),...(x.peopleSnapshots||[]).flatMap(p=>[p.name,p.role,p.roleLabel]),...(x.associations||[]).flatMap(a=>[a.note,...(a.moodIds||[])])].join(' ').toLowerCase().includes(q))).sort((a,b)=>Number(!!b.pinned)-Number(!!a.pinned)||Date.parse(b.updatedAt)-Date.parse(a.updatedAt))}
  return{buckets,safeLink,responseOutcome,search};
 })();
 if(typeof module!=='undefined'&&module.exports)module.exports=AntarPersonal;

@@ -1,7 +1,7 @@
 'use strict';
-const CACHE='antar-shell-skills-2';
-const READINGS='antar-readings-skills-2';
-const CORE=['/','/index.html','/styles.css','/mobile.css','/fonts.css','/icon.svg','/icon-192.png','/icon-512.png','/apple-touch-icon.png','/manifest.webmanifest','/matching.js','/patterns.js','/memory-engine.js','/passages.js','/checkins.js','/understand.js','/interactive-stories.js','/history.js','/pwa.js','/app.js','/personal.css','/personal-data.js','/second-mind.js','/gentle-help.js','/journeys.js','/living-model.js','/living.js','/polish.css','/skills-model.js','/skills.js','/skills.css','/library/manifest.json','/library/excerpts.json'];
+const CACHE='antar-shell-solar-5';
+const READINGS='antar-readings-solar-5';
+const CORE=['/','/index.html','/styles.css','/mobile.css','/fonts.css','/icon.svg','/icon-192.png','/icon-512.png','/apple-touch-icon.png','/manifest.webmanifest','/matching.js','/patterns.js','/memory-engine.js','/passages.js','/checkins.js','/understand.js','/interactive-stories.js','/history.js','/pwa.js','/app.js','/personal.css','/personal-data.js','/second-mind.js','/gentle-help.js','/journeys.js','/living-model.js','/living.js','/polish.css','/skills-model.js','/skills.js','/skills.css','/solar-model.js','/solar.js','/solar.css','/library/manifest.json','/library/excerpts.json'];
 // Only explicitly listed static assets are cached. Auth redirects, API responses,
 // logs, exports, and downloadable full editions never enter these caches.
 async function checkedFetch(path){const response=await fetch(path,{cache:'reload'});if(!response.ok||response.redirected||new URL(response.url).origin!==self.location.origin)throw Error('Asset unavailable');return response;}
