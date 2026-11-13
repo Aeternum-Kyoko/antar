@@ -1,10 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "purpose": "Editorial mood-linked literary reflection, not diagnosis or treatment.",
   "matching": "Selected moods, requested reading need, optional exact nuance, writer preference, intensity and explicit challenging-content opt-in. Free text is not analyzed.",
   "coverage": {
-    "entries": 39,
-    "sources": 13,
+    "entries": 60,
+    "sources": 20,
     "sourceCoverage": {
       "oedipus": 3,
       "gita": 3,
@@ -18,43 +18,32 @@
       "seneca-dialogues": 3,
       "plato-apology": 3,
       "laozi-tao": 3,
-      "nietzsche-zarathustra": 3
+      "nietzsche-zarathustra": 3,
+      "gibran-prophet": 3,
+      "tagore-sadhana": 3,
+      "gita-arnold": 3,
+      "dhammapada-muller": 3,
+      "montaigne-essays": 3,
+      "schopenhauer-wisdom": 3,
+      "confucius-analects": 3
     },
     "moodCoverage": {
-      "angry": 4,
-      "anxious": 11,
-      "ashamed": 11,
-      "exhausted": 8,
-      "guilty": 6,
-      "hurt": 11,
-      "jealous": 11,
-      "lonely": 9,
-      "looping": 10,
-      "numb": 3,
-      "okay": 9,
-      "overwhelmed": 13,
-      "restless": 8,
-      "sad": 4,
-      "uncertain": 20,
-      "unsure": 12
-    },
-    "gentleMoodCoverage": {
-      "angry": 2,
-      "anxious": 4,
-      "ashamed": 4,
-      "exhausted": 5,
-      "guilty": 3,
-      "hurt": 4,
-      "jealous": 4,
-      "lonely": 3,
-      "looping": 5,
-      "numb": 2,
-      "okay": 5,
-      "overwhelmed": 8,
-      "restless": 6,
-      "sad": 2,
-      "uncertain": 9,
-      "unsure": 4
+      "angry": 5,
+      "anxious": 16,
+      "ashamed": 18,
+      "exhausted": 11,
+      "guilty": 10,
+      "hurt": 18,
+      "jealous": 16,
+      "lonely": 13,
+      "looping": 14,
+      "numb": 5,
+      "okay": 19,
+      "overwhelmed": 18,
+      "restless": 10,
+      "sad": 6,
+      "uncertain": 29,
+      "unsure": 24
     }
   },
   "entries": [
@@ -1216,6 +1205,618 @@
       "end": 6156,
       "locator": "XXII. THE BESTOWING VIRTUE.",
       "sourceUrl": "https://www.gutenberg.org/cache/epub/1998/pg1998-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gibran-prophet-excerpt-1",
+      "sourceId": "gibran-prophet",
+      "sectionIndex": 0,
+      "quote": "Say not, “I have found the truth,” but\nrather, “I have found a truth.”\n\nSay not, “I have found the path of the\nsoul.” Say rather, “I have met the soul\nwalking upon my path.”\n\nFor the soul walks upon all paths.",
+      "start": 37896,
+      "end": 38105,
+      "heading": "A truth, without a final verdict",
+      "moods": [
+        "uncertain",
+        "unsure",
+        "okay",
+        "ashamed"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Ek nazariya milna, apne baare mein final verdict milna nahi. Aap apna matlab badal sakte ho.",
+      "why": "Gibran uses spiritual poetry to resist a single final account of the self. You can explore that openness without adopting his spiritual claims.",
+      "prompt": "Which description of yourself would you like to hold more lightly?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Poetic spiritual reflections include suffering, religion, death and relationships. Metaphors are not explanations of your mental health.",
+      "locator": "On Self-Knowledge",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/58585",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gibran-prophet-excerpt-2",
+      "sourceId": "gibran-prophet",
+      "sectionIndex": 0,
+      "quote": "But let there be spaces in your\ntogetherness,\n\nAnd let the winds of the heavens dance\nbetween you.\n\n*****\n\nLove one another, but make not a bond of\nlove:\n\nLet it rather be a moving sea between\nthe shores of your souls.",
+      "start": 10381,
+      "end": 10599,
+      "heading": "Closeness can have breathing room",
+      "moods": [
+        "lonely",
+        "hurt",
+        "guilty",
+        "anxious"
+      ],
+      "needs": [
+        "understanding",
+        "perspective",
+        "comfort"
+      ],
+      "nuances": [],
+      "hinglish": "Saath aur apni jagah, dono ki zaroorat ek saath ho sakti hai. Space maangna care ki kami ka saboot nahi.",
+      "why": "The poem imagines connection with room for separate lives. It invites a question about space, not a rule about what every relationship must look like.",
+      "prompt": "What kind of space would make connection feel more comfortable?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Poetic spiritual reflections include suffering, religion, death and relationships. Metaphors are not explanations of your mental health.",
+      "locator": "On Marriage",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/58585",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gibran-prophet-excerpt-3",
+      "sourceId": "gibran-prophet",
+      "sectionIndex": 0,
+      "quote": "When your friend speaks his mind you\nfear not the “nay” in your own mind, nor\ndo you withhold the “ay.”",
+      "start": 39621,
+      "end": 39724,
+      "heading": "Your own yes and no in friendship",
+      "moods": [
+        "guilty",
+        "hurt",
+        "lonely",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Kisi ka dost hote hue bhi apna haan ya naa rakh sakte ho.",
+      "why": "Gibran pictures friendship that can include disagreement. Use the image to explore your voice while considering the safety and context of the actual relationship.",
+      "prompt": "What is one thing you want to say honestly and kindly?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Poetic spiritual reflections include suffering, religion, death and relationships. Metaphors are not explanations of your mental health.",
+      "locator": "On Friendship",
+      "sourceUrl": "https://www.gutenberg.org/ebooks/58585",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "tagore-sadhana-excerpt-1",
+      "sourceId": "tagore-sadhana",
+      "sectionIndex": 1,
+      "quote": "I have used them, both in my own life and in my preaching, as\r\nbeing instinct with individual meaning for me, as for others, and\r\nawaiting for their confirmation, my own special testimony, which\r\nmust have its value because of its individuality.",
+      "start": 2032,
+      "end": 2277,
+      "heading": "Your reading can have your own meaning",
+      "moods": [
+        "uncertain",
+        "unsure",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Kitaab ka matlab sirf author ke paas nahi. Aapke experience se bhi ek nazariya ban sakta hai.",
+      "why": "In his preface, Tagore explains his personal relationship to spiritual texts. This supports reading as exploration rather than treating a text as a verdict about you.",
+      "prompt": "What part of a reading speaks to you, and what would you leave behind?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Spiritual essays drawing on Indian traditions. Readers need not accept metaphysical claims or assign spiritual meaning to distress.",
+      "locator": "Author’s preface",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/6842/pg6842-images.html#id00001",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "tagore-sadhana-excerpt-2",
+      "sourceId": "tagore-sadhana",
+      "sectionIndex": 4,
+      "quote": "The trees\r\nand the stars and the blue hills appear to us as symbols aching\r\nwith a meaning which can never be uttered in words.",
+      "start": 26790,
+      "end": 26917,
+      "heading": "Something that does not need explaining",
+      "moods": [
+        "overwhelmed",
+        "unsure",
+        "numb",
+        "okay"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Har experience ko turant explain karna zaroori nahi. Kabhi koi rang ya aas-paas ki cheez bas notice kar sakte ho.",
+      "why": "Tagore offers a poetic image of ordinary things carrying meaning beyond words. It is an invitation to curiosity, not a claim that nature will remove distress.",
+      "prompt": "Is there something ordinary you would like to notice without explaining it?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Spiritual essays drawing on Indian traditions. Readers need not accept metaphysical claims or assign spiritual meaning to distress.",
+      "locator": "Soul Consciousness, chapter II",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/6842/pg6842-images.html#id00061",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "tagore-sadhana-excerpt-3",
+      "sourceId": "tagore-sadhana",
+      "sectionIndex": 8,
+      "quote": "The joy of the sunlight, the joy of the free air,\r\nmingling with the joy of their lives, makes one sweet harmony\r\nreign within and without.",
+      "start": 4680,
+      "end": 4819,
+      "heading": "A small image of enjoyment",
+      "moods": [
+        "okay",
+        "sad",
+        "numb",
+        "exhausted"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Khushi ko force nahi karna. Is tasveer se bas poochh sakte ho: abhi kis chhoti cheez mein curiosity hai?",
+      "why": "This passage imagines sunlight and free air as part of enjoyment. You do not need to feel its harmony, or turn enjoyment into another obligation.",
+      "prompt": "What is one small experience you might enjoy without having to earn it?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Spiritual essays drawing on Indian traditions. Readers need not accept metaphysical claims or assign spiritual meaning to distress.",
+      "locator": "Realisation in Action, chapter VI",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/6842/pg6842-images.html#id00230",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gita-arnold-excerpt-1",
+      "sourceId": "gita-arnold",
+      "sectionIndex": 3,
+      "quote": "In pity lost, by doubtings tossed,\nMy thoughts-distracted-turn\nTo Thee, the Guide I reverence most,\nThat I may counsel learn:",
+      "start": 805,
+      "end": 930,
+      "heading": "A question can ask for support",
+      "moods": [
+        "uncertain",
+        "anxious",
+        "unsure",
+        "overwhelmed"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Confusion mein kisi se samajhne ka saath maangna ek choice ho sakti hai.",
+      "why": "Arjuna asks for counsel in a battlefield dialogue. The setting is intense; the offered connection is simply that uncertainty can be spoken, not that the book determines your duty.",
+      "prompt": "What would you like to understand with someone you trust?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Set on a battlefield; includes war, death, duty, caste, and spiritual claims. Not an instruction to ignore harm or suppress emotions.",
+      "locator": "Bhagavad Gita, chapter II",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gita-arnold-excerpt-2",
+      "sourceId": "gita-arnold",
+      "sectionIndex": 3,
+      "quote": "Let right deeds be\nThy motive, not the fruit which comes from them.",
+      "start": 7029,
+      "end": 7096,
+      "heading": "An action and an outcome are different",
+      "moods": [
+        "anxious",
+        "guilty",
+        "uncertain",
+        "looping"
+      ],
+      "needs": [
+        "understanding",
+        "perspective",
+        "action"
+      ],
+      "nuances": [],
+      "hinglish": "Apni choice aur uska poora result alag ho sakte hain. Result par aur bhi cheezon ka asar hota hai.",
+      "why": "The verse distinguishes an action’s motive from its result. This can open a question about influence without asking you to ignore consequences or work through exhaustion.",
+      "prompt": "Which part of an outcome can you influence, and which part also depends on others?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Set on a battlefield; includes war, death, duty, caste, and spiritual claims. Not an instruction to ignore harm or suppress emotions.",
+      "locator": "Bhagavad Gita, chapter II",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "gita-arnold-excerpt-3",
+      "sourceId": "gita-arnold",
+      "sectionIndex": 7,
+      "quote": "It were all one, I think,\nTo hold the wayward wind, as tame man's heart.",
+      "start": 4656,
+      "end": 4728,
+      "heading": "When attention feels hard to hold",
+      "moods": [
+        "looping",
+        "overwhelmed",
+        "restless",
+        "anxious"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Mann ka bhatakna frustration la sakta hai. Isse aapki worth ya character decide nahi hota.",
+      "why": "Arjuna compares restraining the heart to holding the wind. Treat it as literary recognition of difficulty, not a demand for total control over thoughts.",
+      "prompt": "Would naming the difficulty feel more useful than trying to force stillness?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Set on a battlefield; includes war, death, duty, caste, and spiritual claims. Not an instruction to ignore harm or suppress emotions.",
+      "locator": "Bhagavad Gita, chapter VI",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "dhammapada-muller-excerpt-1",
+      "sourceId": "dhammapada-muller",
+      "sectionIndex": 2,
+      "quote": "For hatred does not cease by hatred at any time: hatred ceases by love,\r\n      this is an old rule.",
+      "start": 776,
+      "end": 875,
+      "heading": "A pause before answering harm with harm",
+      "moods": [
+        "angry",
+        "hurt",
+        "restless"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Gusse ko galat kahe bina, agla response soch sakte ho. Boundary rakhna ya safe jagah jaana bhi valid hai.",
+      "why": "The verse proposes an ethical response to hatred. It does not require forgiving harm, remaining in danger, or blaming yourself for anger.",
+      "prompt": "What response would protect you without adding harm?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Ancient religious and ethical verse with dated moral judgments, punishment and death. Distress is not evidence of bad character.",
+      "locator": "Chapter I, verse 5",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2017/pg2017-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "dhammapada-muller-excerpt-2",
+      "sourceId": "dhammapada-muller",
+      "sectionIndex": 5,
+      "quote": "As the bee collects nectar and departs without injuring the flower, or\r\n      its colour or scent, so let a sage dwell in his village.",
+      "start": 897,
+      "end": 1031,
+      "heading": "Taking part gently",
+      "moods": [
+        "guilty",
+        "hurt",
+        "okay",
+        "unsure"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Kisi jagah mein apna hissa lena aur gentle rehna ek saath ho sakta hai. Apni needs mitana zaroori nahi.",
+      "why": "The bee is an ethical image for participation without unnecessary harm. It is not a requirement to be harmless in every interaction or to suppress your own needs.",
+      "prompt": "How could you take part while keeping care for yourself and others?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Ancient religious and ethical verse with dated moral judgments, punishment and death. Distress is not evidence of bad character.",
+      "locator": "Chapter IV, verse 49",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2017/pg2017-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "dhammapada-muller-excerpt-3",
+      "sourceId": "dhammapada-muller",
+      "sectionIndex": 9,
+      "quote": "Even though a speech be a thousand (of words), but made up of\r\n      senseless words, one word of sense is better, which if a man hears, he\r\n      becomes quiet.",
+      "start": 5,
+      "end": 166,
+      "heading": "One meaningful word can be enough",
+      "moods": [
+        "overwhelmed",
+        "looping",
+        "exhausted",
+        "unsure"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Zyada words hamesha zyada samajh nahi dete. Abhi ek useful word ya sawal bhi kaafi ho sakta hai.",
+      "why": "This verse values meaning over quantity. Its statement about quiet is the text’s spiritual ideal, not a promise that one sentence will calm you.",
+      "prompt": "What is one word that feels useful for this moment?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Ancient religious and ethical verse with dated moral judgments, punishment and death. Distress is not evidence of bad character.",
+      "locator": "Chapter VIII, verse 100",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2017/pg2017-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "montaigne-essays-excerpt-1",
+      "sourceId": "montaigne-essays",
+      "sectionIndex": 87,
+      "quote": "When I play with my cat who knows\r\n      whether I do not make her more sport than she makes me? We mutually divert\r\n      one another with our play.",
+      "start": 37994,
+      "end": 38143,
+      "heading": "There may be another point of view",
+      "moods": [
+        "uncertain",
+        "hurt",
+        "jealous",
+        "okay"
+      ],
+      "needs": [
+        "perspective",
+        "understanding"
+      ],
+      "nuances": [],
+      "hinglish": "Ek hi scene ko doosri taraf se dekh sakte ho. Aapka view galat ho, yeh zaroori nahi.",
+      "why": "Montaigne playfully questions whose perspective organizes an encounter with his cat. It offers a small exercise in curiosity without requiring you to dismiss your own view.",
+      "prompt": "What might this situation look like from another position?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Historical essays include violence, death, sexuality, discriminatory language and contradictory opinions. Reflect critically.",
+      "locator": "Book II, chapter XII: Apology for Raimond Sebond",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3600/pg3600-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "montaigne-essays-excerpt-2",
+      "sourceId": "montaigne-essays",
+      "sectionIndex": 114,
+      "quote": "I do not paint its being, I paint\r\n      its passage; not a passing from one age to another, or, as the people say,\r\n      from seven to seven years, but from day to day, from minute to minute, I\r\n      must accommodate my history to the hour: I may presently change, not only\r\n      by fortune, but also by intention.",
+      "start": 742,
+      "end": 1060,
+      "heading": "A log is a moment, not your whole identity",
+      "moods": [
+        "uncertain",
+        "ashamed",
+        "unsure",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective",
+        "comfort"
+      ],
+      "nuances": [],
+      "hinglish": "Ek entry us pal ki tasveer hai, aapki poori pehchaan nahi. Needs aur nazariye badal sakte hain.",
+      "why": "Montaigne describes recording a changing life rather than a fixed being. This is a helpful lens for reading logs without turning a moment into a permanent label.",
+      "prompt": "Which old description of yourself might need more room to change?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Historical essays include violence, death, sexuality, discriminatory language and contradictory opinions. Reflect critically.",
+      "locator": "Book III, chapter II: Of Repentance",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3600/pg3600-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "montaigne-essays-excerpt-3",
+      "sourceId": "montaigne-essays",
+      "sectionIndex": 114,
+      "quote": "every man carries the entire form of human\r\n      condition. Authors communicate themselves to the people by some especial\r\n      and extrinsic mark; I, the first of any, by my universal being; as Michel\r\n      de Montaigne, not as a grammarian, a poet, or a lawyer.",
+      "start": 1736,
+      "end": 2002,
+      "heading": "You are more than one role",
+      "moods": [
+        "ashamed",
+        "lonely",
+        "jealous",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Job, role, ya ek achievement se aapki poori kahaani nahi banti.",
+      "why": "The essay turns from a social title toward the person speaking. Its universal language is a philosophical view; it should not erase differences between people’s experiences.",
+      "prompt": "What part of yourself is not captured by your usual role?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Historical essays include violence, death, sexuality, discriminatory language and contradictory opinions. Reflect critically.",
+      "locator": "Book III, chapter II: Of Repentance",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3600/pg3600-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "schopenhauer-wisdom-excerpt-1",
+      "sourceId": "schopenhauer-wisdom",
+      "sectionIndex": 5,
+      "quote": "The truth is that the value we set upon the opinion of others, and our\r\n      constant endeavor in respect of it, are each quite out of proportion to\r\n      any result we may reasonably hope to attain;",
+      "start": 9257,
+      "end": 9458,
+      "heading": "How much space does an opinion take?",
+      "moods": [
+        "anxious",
+        "ashamed",
+        "jealous",
+        "hurt"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Logon ki rai kabhi matter karti hai. Phir bhi poochh sakte ho: is rai ko main kitni jagah de raha hoon?",
+      "why": "Schopenhauer criticizes concern with other people’s opinions. This is his strong philosophical stance, not evidence that judgment or discrimination has no real effect.",
+      "prompt": "Which opinion deserves your attention, and which one might be taking more space than you want?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Pessimistic philosophy with elitist and discriminatory judgments. Optional critical reading, not advice or a model of personal worth.",
+      "locator": "Reputation, section I",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10741/pg10741-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "schopenhauer-wisdom-excerpt-2",
+      "sourceId": "schopenhauer-wisdom",
+      "sectionIndex": 9,
+      "quote": "The truth is that fame means nothing but what a man is in comparison with\r\n      others. It is essentially relative in character, and therefore only\r\n      indirectly valuable;",
+      "start": 16895,
+      "end": 17071,
+      "heading": "Comparison changes the measuring stick",
+      "moods": [
+        "jealous",
+        "ashamed",
+        "uncertain",
+        "okay"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Comparison ka scale badalta rehta hai. Apni value ko sirf usi scale par rakhna mushkil ho sakta hai.",
+      "why": "The author calls fame relative to other people. You can explore the instability of that comparison without adopting his hierarchy of personal value.",
+      "prompt": "What matters to you even when no comparison is being made?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Pessimistic philosophy with elitist and discriminatory judgments. Optional critical reading, not advice or a model of personal worth.",
+      "locator": "Fame, section V",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10741/pg10741-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "schopenhauer-wisdom-excerpt-3",
+      "sourceId": "schopenhauer-wisdom",
+      "sectionIndex": 3,
+      "quote": "leisure, that is, the\r\n      time one has for the free enjoyment of one's consciousness or\r\n      individuality, is the fruit or produce of the rest of existence, which is\r\n      in general only labor and effort.",
+      "start": 21157,
+      "end": 21369,
+      "heading": "A moment that is yours to spend",
+      "moods": [
+        "exhausted",
+        "overwhelmed",
+        "okay",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Free waqt ko bhi kisi test mein badalna zaroori nahi. Usmein aap kya chahte ho?",
+      "why": "This passage defines leisure within a pessimistic argument. The surrounding text judges some people’s use of time; this app does not adopt those judgments.",
+      "prompt": "What would feel like your own use of a small amount of free time?",
+      "intensityMax": 3,
+      "sensitive": true,
+      "contentNote": "Pessimistic philosophy with elitist and discriminatory judgments. Optional critical reading, not advice or a model of personal worth.",
+      "locator": "Personality, chapter II",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10741/pg10741-images.html",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "confucius-analects-excerpt-1",
+      "sourceId": "confucius-analects",
+      "sectionIndex": 3,
+      "quote": "When you know a thing, to hold that you know it;\r\nand when you do not know a thing, to allow that you do not know\r\nit;— this is knowledge.",
+      "start": 3708,
+      "end": 3846,
+      "heading": "Knowing what is still unknown",
+      "moods": [
+        "uncertain",
+        "unsure",
+        "looping",
+        "ashamed"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Kisi baat ko na-jaanna accept karna, apni kami ka final verdict nahi hai.",
+      "why": "The saying distinguishes knowing from acknowledging uncertainty. It can invite honesty without requiring perfect certainty before you act.",
+      "prompt": "What do you know, and what can remain a question for now?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Ancient ethical and political sayings include hierarchy and dated gender assumptions. They do not determine a reader’s worth.",
+      "locator": "Book II, chapter XVII",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html#id00008",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "confucius-analects-excerpt-2",
+      "sourceId": "confucius-analects",
+      "sectionIndex": 2,
+      "quote": "Is it not delightful to have friends coming from distant\r\nquarters?'",
+      "start": 120,
+      "end": 188,
+      "heading": "A small picture of connection",
+      "moods": [
+        "lonely",
+        "sad",
+        "okay",
+        "hurt"
+      ],
+      "needs": [
+        "comfort",
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Saath ka ek chhota pal bhi apnapan la sakta hai. Aapko bahut saare log chahiye hon, yeh zaroori nahi.",
+      "why": "The saying notices enjoyment in visiting friends. It offers an image of connection, without assuming everyone has safe friends available or should feel delighted.",
+      "prompt": "What kind of company would feel welcome to you today?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Ancient ethical and political sayings include hierarchy and dated gender assumptions. They do not determine a reader’s worth.",
+      "locator": "Book I, chapter I.2",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html#id00008",
+      "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
+    },
+    {
+      "id": "confucius-analects-excerpt-3",
+      "sourceId": "confucius-analects",
+      "sectionIndex": 8,
+      "quote": "I am not one who was born in\r\nthe possession of knowledge; I am one who is fond of antiquity, and\r\nearnest in seeking it there.",
+      "start": 4429,
+      "end": 4556,
+      "heading": "Learning does not have to be inborn",
+      "moods": [
+        "ashamed",
+        "jealous",
+        "uncertain",
+        "unsure"
+      ],
+      "needs": [
+        "understanding",
+        "perspective"
+      ],
+      "nuances": [],
+      "hinglish": "Har cheez pehle se aani zaroori nahi. Seekhna aapki kahaani ka hissa ho sakta hai.",
+      "why": "Confucius describes seeking knowledge rather than possessing it from birth. His focus on antiquity is his own preference, not a rule for how you should learn.",
+      "prompt": "What are you allowed to be learning rather than already know?",
+      "intensityMax": 3,
+      "sensitive": false,
+      "contentNote": "Ancient ethical and political sayings include hierarchy and dated gender assumptions. They do not determine a reader’s worth.",
+      "locator": "Book VII, chapter XIX",
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html#id00008",
       "verification": "Exact contiguous excerpt verified against the downloaded section; start/end are UTF-16 offsets."
     }
   ]

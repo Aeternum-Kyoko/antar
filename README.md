@@ -59,3 +59,12 @@ When enabled, explicit passage helpfulness ratings adjust eligible passage ranki
 Three original interactive stories offer eleven reachable endings. They are clearly labelled modern fiction, with no score, streak, personality result, or forced reflection. Enjoying a story never automatically creates a check-in.
 
 Run `node test-matching.cjs` and `node test-month.cjs` from the repository root. Validation covers exact source excerpts, matching boundaries, missing-day semantics, duration accounting, recurrence thresholds, learning eligibility, and every story branch. Browser QA additionally verifies the guided flow, save/reload, entry removal/undo, and story navigation. Actual iPhone/Safari testing remains outstanding.
+
+
+Latest expansion: 20 source editions and 60 source-verified excerpts. Includes Gibran, Tagore, the Bhagavad Gita (Arnold), Dhammapada (Müller), Montaigne, Schopenhauer, and Confucius alongside the existing collection. Full source notices remain with the downloaded editions.
+
+The calendar now links to all saved history with date, feeling, need, context, helpfulness, and text filters. What helped last time uses only explicit ratings and includes negative ratings in its denominator. A needs map counts explicitly selected needs on separate days; confirmations and corrections belong to an exact snapshot and never rewrite original logs. Run `node test-memory.cjs` in addition to the other checks.
+
+Design research: [Daylio](https://daylio.net/) for quick entries and calendar history; [Bearable](https://bearable.app/support/tips/visualise-your-health-data-in-many-forms) for filtered timelines; [How We Feel](https://howwefeel.org/resources) for emotion vocabulary; [Finch](https://help.finchcare.com/hc/en-us/articles/37935669335309-Our-Approach-to-Self-Care) for gentle attainable activities. Original interface and story content; no copied app assets.
+
+Vercel: buildless static deployment with `dist` as output. `.vercelignore` restricts uploads to deployable assets and configuration. Authenticate before linking/deploying; verify Vercel Authentication protects all deployments before publishing this personal app. Browser history stays on its original browser origin and is not uploaded or moved with deployment.

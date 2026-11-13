@@ -5,7 +5,7 @@ const manifest=JSON.parse(fs.readFileSync('./dist/library/manifest.json','utf8')
 const data=JSON.parse(fs.readFileSync('./dist/library/excerpts.json','utf8'));
 const entries=data.entries,needs=['comfort','perspective','understanding','action'];
 const moods='overwhelmed anxious looping sad lonely ashamed guilty angry numb exhausted uncertain jealous restless hurt okay unsure'.split(' ');
-assert.equal(entries.length,39);assert.equal(new Set(entries.map(e=>e.sourceId)).size,13);
+assert.equal(entries.length,60);assert.equal(new Set(entries.map(e=>e.sourceId)).size,20);
 for(const e of entries){
  assert.match(e.id,/^[a-z0-9-]+$/);const s=manifest.sources.find(s=>s.id===e.sourceId);assert.ok(s);
  const sections=JSON.parse(fs.readFileSync('./dist/library/'+s.text,'utf8'));const section=sections[e.sectionIndex];
@@ -30,4 +30,4 @@ assert.deepEqual(rank(entries,{moods:['nonexistent-feeling'],need:'comfort',allo
 assert.deepEqual(rank(entries,{moods:['angry'],need:'comfort',source:'kafka-trial',allowChallenging:true}),[],'no forced writer/need match');
 const fixture=[{id:'a',sourceId:'book',moods:['anxious'],needs:['perspective'],nuances:[],sensitive:false,intensityMax:3},{id:'b',sourceId:'book',moods:['anxious'],needs:['perspective'],nuances:['Future uncertainty'],sensitive:false,intensityMax:3}];
 assert.equal(rank(fixture,{moods:['anxious'],need:'perspective',nuance:'Future uncertainty'})[0].entry.id,'b');
-console.log('Verified39 exact source ranges,13 editions,16 gentle mood categories and '+checked+' mood/need/intensity/consent combinations.');
+console.log('Verified60 exact source ranges,20 editions,16 gentle mood categories and '+checked+' mood/need/intensity/consent combinations.');
